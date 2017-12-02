@@ -90,7 +90,7 @@ Function Kinds()
 	// simple
 	Kinds.Insert("MDObjectRef", "String");
 	Kinds.Insert("MDMethodRef", "String");
-	Kinds.Insert("FiedlRef", "String");
+	Kinds.Insert("FieldRef", "String");
 	Kinds.Insert("DataPath", "String");
 	Kinds.Insert("IncludeInCommandCategoriesType", "String");
 
@@ -101,11 +101,17 @@ Function Kinds()
 	Kinds.Insert("ChoiceParameterLinks", ChoiceParameterLinks());
 	Kinds.Insert("TypeLink", TypeLink());
 	Kinds.Insert("StandardAttributes", StandardAttributes());
+	Kinds.Insert("StandardTabularSections", StandardTabularSections());
+	Kinds.Insert("Characteristics", Characteristics());
+	Kinds.Insert("AccountingFlag", AccountingFlag());
+	Kinds.Insert("ExtDimensionAccountingFlag", ExtDimensionAccountingFlag());
+	Kinds.Insert("AddressingAttribute", AddressingAttribute());
 
 	// metadata objects
 	Kinds.Insert("MetaDataObject", MetaDataObject());
 	Kinds.Insert("Attribute", Attribute());
 	Kinds.Insert("Dimension", Dimension());
+	Kinds.Insert("Resource", Resource());
 	Kinds.Insert("TabularSection", TabularSection());
 	Kinds.Insert("Command", Command());
 
@@ -256,13 +262,106 @@ Function StandardAttribute()
 	Return This;
 EndFunction // StandardAttribute()
 
+Function StandardTabularSections()
+	This = Object();
+	Items = This.Items;
+	Items["StandardTabularSection"] = StandardTabularSection();
+	Return This;
+EndFunction // StandardTabularSections()
+
+Function StandardTabularSection()
+	This = Record();
+	This["name"]                = "String";
+	This["Synonym"]             = "LocalStringType";
+	This["Comment"]             = "String";
+	This["ToolTip"]             = "LocalStringType";
+	This["FillChecking"]        = Enums.FillChecking;
+	This["StandardAttributes"]  = "StandardAttributes";
+	Return This;
+EndFunction // StandardTabularSection()
+
+Function Characteristics()
+	This = Object();
+	Items = This.Items;
+	Items["Characteristic"] = Characteristic();
+	Return This;
+EndFunction // Characteristics()
+
+Function Characteristic()
+	This = Record();
+	This["CharacteristicTypes"] = CharacteristicTypes();
+	This["CharacteristicValues"] = CharacteristicValues();
+	Return This;
+EndFunction // Characteristic()
+
+Function CharacteristicTypes()
+	This = Record();
+	This["from"] = "MDObjectRef";
+	This["KeyField"] = "FieldRef";
+	This["TypesFilterField"] = "FieldRef";
+	//This["TypesFilterValue"] = ;
+	Return This;
+EndFunction // CharacteristicTypes()
+
+Function CharacteristicValues()
+	This = Record();
+	This["from"] = "MDObjectRef";
+	This["ObjectField"] = "FieldRef";
+	This["TypeField"] = "FieldRef";
+	//This["ValueField"] = ;
+	Return This;
+EndFunction // CharacteristicValues()
+
 #EndRegion // Common
 
 #Region MetaDataObject
 
 Function MetaDataObject()
 	This = Record();
-	This["Catalog"] = Catalog();
+	This["version"] = "Decimal";
+	This["Configuration"]               = Configuration();
+	This["Language"]                    = Language();
+	This["AccountingRegister"]          = AccountingRegister();
+	This["AccumulationRegister"]        = AccumulationRegister();
+	This["BusinessProcess"]             = BusinessProcess();
+	This["CalculationRegister"]         = CalculationRegister();
+	This["Catalog"]                     = Catalog();
+	This["ChartOfAccounts"]             = ChartOfAccounts();
+	This["ChartOfCalculationTypes"]     = ChartOfCalculationTypes();
+	This["ChartOfCharacteristicTypes"]  = ChartOfCharacteristicTypes();
+	This["CommandGroup"]                = CommandGroup();
+	This["CommonAttribute"]             = CommonAttribute();
+	This["CommonCommand"]               = CommonCommand();
+	This["CommonForm"]                  = CommonForm();
+	This["CommonModule"]                = CommonModule();
+	This["CommonPicture"]               = CommonPicture();
+	This["CommonTemplate"]              = CommonTemplate();
+	This["Constant"]                    = Constant();
+	This["DataProcessor"]               = DataProcessor();
+	This["DocumentJournal"]             = DocumentJournal();
+	This["DocumentNumerator"]           = DocumentNumerator();
+	This["Document"]                    = Document();
+	This["Enum"]                        = Enum();
+	This["EventSubscription"]           = EventSubscription();
+	This["ExchangePlan"]                = ExchangePlan();
+	This["FilterCriterion"]             = FilterCriterion();
+	This["FunctionalOption"]            = FunctionalOption();
+	This["FunctionalOptionsParameter"]  = FunctionalOptionsParameter();
+	This["HTTPService"]                 = HTTPService();
+	This["InformationRegister"]         = InformationRegister();
+	This["Report"]                      = Report();
+	This["Role"]                        = Role();
+	This["ScheduledJob"]                = ScheduledJob();
+	This["Sequence"]                    = Sequence();
+	This["SessionParameter"]            = SessionParameter();
+	This["SettingsStorage"]             = SettingsStorage();
+	This["Subsystem"]                   = Subsystem();
+	This["Task"]                        = Task();
+	This["Template"]                    = Template();
+	This["WebService"]                  = WebService();
+	This["WSReference"]                 = WSReference();
+	This["XDTOPackage"]                 = XDTOPackage();
+	This["Form"]                        = Form();
 	Return This;
 EndFunction // MetaDataObject()
 
@@ -1044,7 +1143,7 @@ Function CatalogProperties()
 	This["Autonumbering"]                     = Enums.Boolean;
 	This["DefaultPresentation"]               = Enums.CatalogMainPresentation;
 	This["StandardAttributes"]                = "StandardAttributes";
-	//This["Characteristics"]                   = CharacteristicsDescriptions;
+	This["Characteristics"]                   = "Characteristics";
 	This["PredefinedDataUpdate"]              = Enums.PredefinedDataUpdate;
 	This["EditType"]                          = Enums.EditType;
 	This["QuickChoice"]                       = Enums.Boolean;
@@ -1119,7 +1218,7 @@ Function ChartOfAccountsProperties()
 	This["DefaultPresentation"]               = Enums.AccountMainPresentation;
 	This["StandardAttributes"]                = "StandardAttributes";
 	This["Characteristics"]                   = "Characteristics";
-	This["StandardTabularSections"]           = "StandardTabularSection";
+	This["StandardTabularSections"]           = "StandardTabularSections";
 	This["PredefinedDataUpdate"]              = Enums.PredefinedDataUpdate;
 	This["EditType"]                          = Enums.EditType;
 	This["QuickChoice"]                       = Enums.Boolean;
@@ -1205,7 +1304,7 @@ Function ChartOfCalculationTypesProperties()
 	This["ActionPeriodUse"]                   = Enums.Boolean;
 	This["StandardAttributes"]                = "StandardAttributes";
 	This["Characteristics"]                   = "Characteristics";
-	This["StandardTabularSections"]           = "StandardTabularSection";
+	This["StandardTabularSections"]           = "StandardTabularSections";
 	This["PredefinedDataUpdate"]              = Enums.PredefinedDataUpdate;
 	This["IncludeHelpInContents"]             = Enums.Boolean;
 	This["DataLockFields"]                    = "FieldList";
@@ -1667,7 +1766,7 @@ EndFunction // DocumentJournalProperties()
 Function DocumentJournalChildObjects()
 	This = Object();
 	Items = This.Items;
-	Items["Column"]    = "Column";
+	Items["Column"]    = Column();
 	Items["Form"]      = "String";
 	Items["Template"]  = "String";
 	Items["Command"]   = "Command";
@@ -1811,7 +1910,7 @@ EndFunction // EnumProperties()
 Function EnumChildObjects()
 	This = Object();
 	Items = This.Items;
-	Items["EnumValue"]  = "EnumValue";
+	Items["EnumValue"]  = EnumValue();
 	Items["Form"]       = "String";
 	Items["Template"]   = "String";
 	Items["Command"]    = "Command";
