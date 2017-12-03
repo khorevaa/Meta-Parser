@@ -1,4 +1,4 @@
-
+﻿
 #Region Parser
 
 Function Parse(XMLReader, Kinds, Kind, ReadToMap = False)
