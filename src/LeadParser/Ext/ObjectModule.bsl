@@ -1,7 +1,7 @@
 ﻿
 #Region Parser
 
-Function Parse(XMLReader, Kinds, Kind, ReadToMap = False)
+Function Parse(XMLReader, Kinds, Kind, ReadToMap = False) Export
 	//While TypeOf(Kind) = Type("String") Do
 	//	Kind = Kinds[Kind];
 	//EndDo;
@@ -77,7 +77,7 @@ EndFunction // ParseObject()
 
 #Region Kinds
 
-Function Kinds()
+Function Kinds() Export
 
 	Kinds = New Structure;
 
