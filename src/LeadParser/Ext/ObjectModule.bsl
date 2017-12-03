@@ -108,13 +108,56 @@ Function Kinds() Export
 	Kinds.Insert("AddressingAttribute", AddressingAttribute());
 
 	// metadata objects
-	Kinds.Insert("MetaDataObject", MetaDataObject());
-	Kinds.Insert("Attribute", Attribute());
-	Kinds.Insert("Dimension", Dimension());
-	Kinds.Insert("Resource", Resource());
-	Kinds.Insert("TabularSection", TabularSection());
-	Kinds.Insert("Command", Command());
-
+	Kinds.Insert("MetaDataObject",             MetaDataObject());	
+	Kinds.Insert("Attribute",                  Attribute());
+	Kinds.Insert("Dimension",                  Dimension());
+	Kinds.Insert("Resource",                   Resource());
+	Kinds.Insert("TabularSection",             TabularSection());
+	Kinds.Insert("Command",                    Command());	
+	Kinds.Insert("Configuration",              Configuration());
+	Kinds.Insert("Language",                   Language());
+	Kinds.Insert("AccountingRegister",         AccountingRegister());
+	Kinds.Insert("AccumulationRegister",       AccumulationRegister());
+	Kinds.Insert("BusinessProcess",            BusinessProcess());
+	Kinds.Insert("CalculationRegister",        CalculationRegister());
+	Kinds.Insert("Catalog",                    Catalog());
+	Kinds.Insert("ChartOfAccounts",            ChartOfAccounts());
+	Kinds.Insert("ChartOfCalculationTypes",    ChartOfCalculationTypes());
+	Kinds.Insert("ChartOfCharacteristicTypes", ChartOfCharacteristicTypes());
+	Kinds.Insert("CommandGroup",               CommandGroup());
+	Kinds.Insert("CommonAttribute",            CommonAttribute());
+	Kinds.Insert("CommonCommand",              CommonCommand());
+	Kinds.Insert("CommonForm",                 CommonForm());
+	Kinds.Insert("CommonModule",               CommonModule());
+	Kinds.Insert("CommonPicture",              CommonPicture());
+	Kinds.Insert("CommonTemplate",             CommonTemplate());
+	Kinds.Insert("Constant",                   Constant());
+	Kinds.Insert("DataProcessor",              DataProcessor());
+	Kinds.Insert("DocumentJournal",            DocumentJournal());
+	Kinds.Insert("DocumentNumerator",          DocumentNumerator());
+	Kinds.Insert("Document",                   Document());
+	Kinds.Insert("Enum",                       Enum());
+	Kinds.Insert("EventSubscription",          EventSubscription());
+	Kinds.Insert("ExchangePlan",               ExchangePlan());
+	Kinds.Insert("FilterCriterion",            FilterCriterion());
+	Kinds.Insert("FunctionalOption",           FunctionalOption());
+	Kinds.Insert("FunctionalOptionsParameter", FunctionalOptionsParameter());
+	Kinds.Insert("HTTPService",                HTTPService());
+	Kinds.Insert("InformationRegister",        InformationRegister());
+	Kinds.Insert("Report",                     Report());
+	Kinds.Insert("Role",                       Role());
+	Kinds.Insert("ScheduledJob",               ScheduledJob());
+	Kinds.Insert("Sequence",                   Sequence());
+	Kinds.Insert("SessionParameter",           SessionParameter());
+	Kinds.Insert("SettingsStorage",            SettingsStorage());
+	Kinds.Insert("Subsystem",                  Subsystem());
+	Kinds.Insert("Task",                       Task());
+	Kinds.Insert("Template",                   Template());
+	Kinds.Insert("WebService",                 WebService());
+	Kinds.Insert("WSReference",                WSReference());
+	Kinds.Insert("XDTOPackage",                XDTOPackage());
+	Kinds.Insert("Form",                       Form());
+	
 	// logform
 	Kinds.Insert("LogForm", LogForm());
 	Kinds.Insert("FormChildItems", FormChildItems());
@@ -2563,7 +2606,9 @@ EndFunction // XDTOPackageChildObjects()
 Function LogForm()
 	This = Record();
 	This["Width"] = "Decimal";
+	This["Height"] = "Decimal";
 	This["VerticalScroll"] = Enums.VerticalFormScroll;
+	This["WindowOpeningMode"] = Enums.FormWindowOpeningMode;
 	This["Attributes"] = FormAttributes();
 	This["Events"] = FormEvents();
 	This["ChildItems"] = "FormChildItems";
