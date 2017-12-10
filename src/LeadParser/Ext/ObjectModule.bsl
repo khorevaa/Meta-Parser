@@ -93,7 +93,8 @@ Function Kinds() Export
 	Kinds.Insert("FieldRef", "String");
 	Kinds.Insert("DataPath", "String");
 	Kinds.Insert("IncludeInCommandCategoriesType", "String");
-
+	Kinds.Insert("QName", "String");
+	
 	// common
 	Kinds.Insert("LocalStringType", LocalStringType());
 	Kinds.Insert("MDListType", MDListType());
@@ -106,7 +107,8 @@ Function Kinds() Export
 	Kinds.Insert("AccountingFlag", AccountingFlag());
 	Kinds.Insert("ExtDimensionAccountingFlag", ExtDimensionAccountingFlag());
 	Kinds.Insert("AddressingAttribute", AddressingAttribute());
-
+	Kinds.Insert("TypeDescription", TypeDescription());
+	
 	// metadata objects
 	Kinds.Insert("MetaDataObject",             MetaDataObject());	
 	Kinds.Insert("Attribute",                  Attribute());
@@ -355,6 +357,47 @@ Function CharacteristicValues()
 	Return This;
 EndFunction // CharacteristicValues()
 
+Function TypeDescription()
+	This = Object();
+	Items = This.Items;
+	Items["Type"] = "QName";
+	Items["TypeSet"] = "QName";
+	Items["TypeId"] = "UUID";
+	Items["NumberQualifiers"] = NumberQualifiers();
+	Items["StringQualifiers"] = StringQualifiers();
+	Items["DateQualifiers"] = DateQualifiers();
+	Items["BinaryDataQualifiers"] = BinaryDataQualifiers();
+	Return This;
+EndFunction // TypeDescription()
+
+Function NumberQualifiers()
+	This = Record();
+	This["Digits"] = "Decimal";
+	This["FractionDigits"] = "Decimal";
+	This["AllowedSign"] = Enums.AllowedSign;
+	Return This;
+EndFunction // NumberQualifiers() 
+
+Function StringQualifiers()
+	This = Record();
+	This["Length"] = "Decimal";
+	This["AllowedLength"] = Enums.AllowedLength;
+	Return This;
+EndFunction // StringQualifiers() 
+
+Function DateQualifiers()
+	This = Record();
+	This["DateFractions"] = Enums.DateFractions;
+	Return This;
+EndFunction // DateQualifiers() 
+
+Function BinaryDataQualifiers()
+	This = Record();
+	This["Length"] = "Decimal";
+	This["AllowedLength"] = Enums.AllowedLength;
+	Return This;
+EndFunction // BinaryDataQualifiers() 
+
 #EndRegion // Common
 
 #Region MetaDataObject
@@ -430,7 +473,7 @@ Function AttributeProperties()
 	This["Name"]                   = "String";
 	This["Synonym"]                = "LocalStringType";
 	This["Comment"]                = "String";
-	//This["Type"]                   = "TypeDescription";
+	This["Type"]                   = "TypeDescription";
 	This["PasswordMode"]           = Enums.Boolean;
 	This["Format"]                 = "LocalStringType";
 	This["EditFormat"]             = "LocalStringType";
@@ -475,7 +518,7 @@ Function DimensionProperties()
 	This["Name"]                   = "String";
 	This["Synonym"]                = "LocalStringType";
 	This["Comment"]                = "String";
-	//This["Type"]                   = "TypeDescription";
+	This["Type"]                   = "TypeDescription";
 	This["PasswordMode"]           = Enums.Boolean;
 	This["Format"]                 = "LocalStringType";
 	This["EditFormat"]             = "LocalStringType";
@@ -530,7 +573,7 @@ Function ResourceProperties()
 	This["Name"]                        = "String";
 	This["Synonym"]                     = "LocalStringType";
 	This["Comment"]                     = "String";
-	//This["Type"]                        = "TypeDescription";
+	This["Type"]                        = "TypeDescription";
 	This["PasswordMode"]                = Enums.Boolean;
 	This["Format"]                      = "LocalStringType";
 	This["EditFormat"]                  = "LocalStringType";
@@ -577,7 +620,7 @@ Function AccountingFlagProperties()
 	This["Name"]                   = "String";
 	This["Synonym"]                = "LocalStringType";
 	This["Comment"]                = "String";
-	//This["Type"]                   = "TypeDescription";
+	This["Type"]                   = "TypeDescription";
 	This["PasswordMode"]           = Enums.Boolean;
 	This["Format"]                 = "LocalStringType";
 	This["EditFormat"]             = "LocalStringType";
@@ -617,7 +660,7 @@ Function ExtDimensionAccountingFlagProperties()
 	This["Name"]                   = "String";
 	This["Synonym"]                = "LocalStringType";
 	This["Comment"]                = "String";
-	//This["Type"]                   = "TypeDescription";
+	This["Type"]                   = "TypeDescription";
 	This["PasswordMode"]           = Enums.Boolean;
 	This["Format"]                 = "LocalStringType";
 	This["EditFormat"]             = "LocalStringType";
@@ -736,7 +779,7 @@ Function AddressingAttributeProperties()
 	This["Name"]                   = "String";
 	This["Synonym"]                = "LocalStringType";
 	This["Comment"]                = "String";
-	//This["Type"]                   = "TypeDescription";
+	This["Type"]                   = "TypeDescription";
 	This["PasswordMode"]           = Enums.Boolean;
 	This["Format"]                 = "LocalStringType";
 	This["EditFormat"]             = "LocalStringType";
@@ -810,7 +853,7 @@ Function CommandProperties()
 	This["Synonym"]               = "LocalStringType";
 	This["Comment"]               = "String";
 	This["Group"]                 = "IncludeInCommandCategoriesType";
-	//This["CommandParameterType"]  = "TypeDescription";
+	This["CommandParameterType"]  = "TypeDescription";
 	This["ParameterUseMode"]      = Enums.CommandParameterUseMode;
 	This["ModifiesData"]          = Enums.Boolean;
 	This["Representation"]        = Enums.ButtonRepresentation;
@@ -1391,7 +1434,7 @@ Function ChartOfCharacteristicTypesProperties()
 	This["UseStandardCommands"]               = Enums.Boolean;
 	This["IncludeHelpInContents"]             = Enums.Boolean;
 	This["CharacteristicExtValues"]           = "MDObjectRef";
-	//This["Type"]                              = "TypeDescription";
+	This["Type"]                              = "TypeDescription";
 	This["Hierarchical"]                      = Enums.Boolean;
 	This["FoldersOnTop"]                      = Enums.Boolean;
 	This["CodeLength"]                        = "Decimal";
@@ -1492,7 +1535,7 @@ Function CommonAttributeProperties()
 	This["Name"]                               = "String";
 	This["Synonym"]                            = "LocalStringType";
 	This["Comment"]                            = "String";
-	//This["Type"]                               = "TypeDescription";
+	This["Type"]                               = "TypeDescription";
 	This["PasswordMode"]                       = Enums.Boolean;
 	This["Format"]                             = "LocalStringType";
 	This["EditFormat"]                         = "LocalStringType";
@@ -1559,7 +1602,7 @@ Function CommonCommandProperties()
 	//This["Picture"]                = ;
 	//This["Shortcut"]               = ;
 	This["IncludeHelpInContents"]  = Enums.Boolean;
-	//This["CommandParameterType"]   = "TypeDescription";
+	This["CommandParameterType"]   = "TypeDescription";
 	This["ParameterUseMode"]       = Enums.CommandParameterUseMode;
 	This["ModifiesData"]           = Enums.Boolean;
 	Return This;
@@ -1708,7 +1751,7 @@ Function ConstantProperties()
 	This["Name"]                   = "String";
 	This["Synonym"]                = "LocalStringType";
 	This["Comment"]                = "String";
-	//This["Type"]                   = "TypeDescription";
+	This["Type"]                   = "TypeDescription";
 	This["UseStandardCommands"]    = Enums.Boolean;
 	This["DefaultForm"]            = "MDObjectRef";
 	This["ExtendedPresentation"]   = "LocalStringType";
@@ -1976,7 +2019,7 @@ Function EventSubscriptionProperties()
 	This["Name"]     = "String";
 	This["Synonym"]  = "LocalStringType";
 	This["Comment"]  = "String";
-	//This["Source"]   = "TypeDescription";
+	This["Source"]   = "TypeDescription";
 	//This["Event"]    = "AliasedStringType";
 	This["Handler"]  = "MDMethodRef";
 	Return This;
@@ -2068,7 +2111,7 @@ Function FilterCriterionProperties()
 	This["Name"]                      = "String";
 	This["Synonym"]                   = "LocalStringType";
 	This["Comment"]                   = "String";
-	//This["Type"]                      = "TypeDescription";
+	This["Type"]                      = "TypeDescription";
 	This["UseStandardCommands"]       = Enums.Boolean;
 	This["Content"]                   = "MDListType";
 	This["DefaultForm"]               = "MDObjectRef";
@@ -2371,7 +2414,7 @@ Function SessionParameterProperties()
 	This["Name"]     = "String";
 	This["Synonym"]  = "LocalStringType";
 	This["Comment"]  = "String";
-	//This["Type"]     = "TypeDescription";
+	This["Type"]     = "TypeDescription";
 	Return This;
 EndFunction // SessionParameterProperties()
 
@@ -2539,9 +2582,52 @@ EndFunction // WebServiceProperties()
 Function WebServiceChildObjects()
 	This = Object();
 	Items = This.Items;
-	//Items["Operation"] = ;
+	Items["Operation"] = Operation();
 	Return This;
 EndFunction // WebServiceChildObjects()
+
+Function Operation()
+	This = Record();
+	This["Properties"] = OperationProperties();
+	This["ChildObjects"] = OperationChildObjects();
+	Return This;
+EndFunction // Operation()
+
+Function OperationProperties()
+	This = Record();
+	This["Name"]                    = "String";
+	This["Synonym"]                 = "LocalStringType";
+	This["Comment"]                 = "String";
+	This["XDTOReturningValueType"]  = "QName";
+	This["Nillable"]                = Enums.Boolean;
+	This["Transactioned"]           = Enums.Boolean;
+	This["ProcedureName"]           = "String";
+	Return This;
+EndFunction // OperationProperties() 
+
+Function OperationChildObjects()
+	This = Object();
+	Items = This.Items;
+	Items["Parameter"] = Parameter();
+	Return This;	
+EndFunction // OperationChildObjects()
+
+Function Parameter()
+	This = Record();
+	This["Properties"] = ParameterProperties();
+	Return This;
+EndFunction // Parameter()
+
+Function ParameterProperties()
+	This = Record();
+	This["Name"]              = "String";
+	This["Synonym"]           = "LocalStringType";
+	This["Comment"]           = "String";
+	This["XDTOValueType"]     = "QName";
+	This["Nillable"]          = Enums.Boolean;
+	This["TransferDirection"] = Enums.TransferDirection;
+	Return This;
+EndFunction // ParameterProperties() 
 
 #EndRegion // WebService
 
@@ -2605,6 +2691,7 @@ EndFunction // XDTOPackageChildObjects()
 
 Function LogForm()
 	This = Record();
+	This["Title"] = "LocalStringType";
 	This["Width"] = "Decimal";
 	This["Height"] = "Decimal";
 	This["VerticalScroll"] = Enums.VerticalFormScroll;
