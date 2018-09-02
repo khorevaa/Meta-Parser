@@ -2587,7 +2587,7 @@ Function WebServiceChildObjects()
 EndFunction // WebServiceChildObjects()
 
 Function Operation()
-	This = Record();
+	This = Record(MDObjectBase());
 	This["Properties"] = OperationProperties();
 	This["ChildObjects"] = OperationChildObjects();
 	Return This;
@@ -2613,7 +2613,7 @@ Function OperationChildObjects()
 EndFunction // OperationChildObjects()
 
 Function Parameter()
-	This = Record();
+	This = Record(MDObjectBase());
 	This["Properties"] = ParameterProperties();
 	Return This;
 EndFunction // Parameter()
