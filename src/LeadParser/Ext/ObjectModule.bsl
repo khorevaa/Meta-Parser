@@ -82,87 +82,87 @@
 	Виды = Новый Структура;
 
 	// basic
-	Виды.Insert("String", Новый ОписаниеТипов("String"));
-	Виды.Insert("Boolean", Новый ОписаниеТипов("Boolean"));
-	Виды.Insert("Decimal", Новый ОписаниеТипов("Number"));
-	Виды.Insert("UUID", "String");
+	Виды.Вставить("String", Новый ОписаниеТипов("String"));
+	Виды.Вставить("Boolean", Новый ОписаниеТипов("Boolean"));
+	Виды.Вставить("Decimal", Новый ОписаниеТипов("Number"));
+	Виды.Вставить("UUID", "String");
 
 	// simple
-	Виды.Insert("MDObjectRef", "String");
-	Виды.Insert("MDMethodRef", "String");
-	Виды.Insert("FieldRef", "String");
-	Виды.Insert("DataPath", "String");
-	Виды.Insert("IncludeInCommandCategoriesType", "String");
-	Виды.Insert("QName", "String");
+	Виды.Вставить("MDObjectRef", "String");
+	Виды.Вставить("MDMethodRef", "String");
+	Виды.Вставить("FieldRef", "String");
+	Виды.Вставить("DataPath", "String");
+	Виды.Вставить("IncludeInCommandCategoriesType", "String");
+	Виды.Вставить("QName", "String");
 
 	// common
-	Виды.Insert("LocalStringType", LocalStringType());
-	Виды.Insert("MDListType", MDListType());
-	Виды.Insert("FieldList", FieldList());
-	Виды.Insert("ChoiceParameterLinks", ChoiceParameterLinks());
-	Виды.Insert("TypeLink", TypeLink());
-	Виды.Insert("StandardAttributes", StandardAttributes());
-	Виды.Insert("StandardTabularSections", StandardTabularSections());
-	Виды.Insert("Characteristics", Characteristics());
-	Виды.Insert("AccountingFlag", AccountingFlag());
-	Виды.Insert("ExtDimensionAccountingFlag", ExtDimensionAccountingFlag());
-	Виды.Insert("AddressingAttribute", AddressingAttribute());
-	Виды.Insert("TypeDescription", TypeDescription());
+	Виды.Вставить("LocalStringType", LocalStringType());
+	Виды.Вставить("MDListType", MDListType());
+	Виды.Вставить("FieldList", FieldList());
+	Виды.Вставить("ChoiceParameterLinks", ChoiceParameterLinks());
+	Виды.Вставить("TypeLink", TypeLink());
+	Виды.Вставить("StandardAttributes", StandardAttributes());
+	Виды.Вставить("StandardTabularSections", StandardTabularSections());
+	Виды.Вставить("Characteristics", Characteristics());
+	Виды.Вставить("AccountingFlag", AccountingFlag());
+	Виды.Вставить("ExtDimensionAccountingFlag", ExtDimensionAccountingFlag());
+	Виды.Вставить("AddressingAttribute", AddressingAttribute());
+	Виды.Вставить("TypeDescription", TypeDescription());
 
 	// metadata objects
-	Виды.Insert("MetaDataObject", MetaDataObject());
-	Виды.Insert("Attribute", Attribute());
-	Виды.Insert("Dimension", Dimension());
-	Виды.Insert("Resource", Resource());
-	Виды.Insert("TabularSection", TabularSection());
-	Виды.Insert("Command", Command());
-	Виды.Insert("Configuration", Configuration());
-	Виды.Insert("Language", Language());
-	Виды.Insert("AccountingRegister", AccountingRegister());
-	Виды.Insert("AccumulationRegister", AccumulationRegister());
-	Виды.Insert("BusinessProcess", BusinessProcess());
-	Виды.Insert("CalculationRegister", CalculationRegister());
-	Виды.Insert("Catalog", Catalog());
-	Виды.Insert("ChartOfAccounts", ChartOfAccounts());
-	Виды.Insert("ChartOfCalculationTypes", ChartOfCalculationTypes());
-	Виды.Insert("ChartOfCharacteristicTypes", ChartOfCharacteristicTypes());
-	Виды.Insert("CommandGroup", CommandGroup());
-	Виды.Insert("CommonAttribute", CommonAttribute());
-	Виды.Insert("CommonCommand", CommonCommand());
-	Виды.Insert("CommonForm", CommonForm());
-	Виды.Insert("CommonModule", CommonModule());
-	Виды.Insert("CommonPicture", CommonPicture());
-	Виды.Insert("CommonTemplate", CommonTemplate());
-	Виды.Insert("Constant", Constant());
-	Виды.Insert("DataProcessor", DataProcessor());
-	Виды.Insert("DocumentJournal", DocumentJournal());
-	Виды.Insert("DocumentNumerator", DocumentNumerator());
-	Виды.Insert("Document", Document());
-	Виды.Insert("Enum", Enum());
-	Виды.Insert("EventSubscription", EventSubscription());
-	Виды.Insert("ExchangePlan", ExchangePlan());
-	Виды.Insert("FilterCriterion", FilterCriterion());
-	Виды.Insert("FunctionalOption", FunctionalOption());
-	Виды.Insert("FunctionalOptionsParameter", FunctionalOptionsParameter());
-	Виды.Insert("HTTPService", HTTPService());
-	Виды.Insert("InformationRegister", InformationRegister());
-	Виды.Insert("Report", Report());
-	Виды.Insert("Role", Role());
-	Виды.Insert("ScheduledJob", ScheduledJob());
-	Виды.Insert("Sequence", Sequence());
-	Виды.Insert("SessionParameter", SessionParameter());
-	Виды.Insert("SettingsStorage", SettingsStorage());
-	Виды.Insert("Subsystem", Subsystem());
-	Виды.Insert("Task", Task());
-	Виды.Insert("Template", Template());
-	Виды.Insert("WebService", WebService());
-	Виды.Insert("WSReference", WSReference());
-	Виды.Insert("XDTOPackage", XDTOPackage());
-	Виды.Insert("Form", Form());
+	Виды.Вставить("MetaDataObject", MetaDataObject());
+	Виды.Вставить("Attribute", Attribute());
+	Виды.Вставить("Dimension", Dimension());
+	Виды.Вставить("Resource", Resource());
+	Виды.Вставить("TabularSection", TabularSection());
+	Виды.Вставить("Command", Command());
+	Виды.Вставить("Configuration", Configuration());
+	Виды.Вставить("Language", Language());
+	Виды.Вставить("AccountingRegister", AccountingRegister());
+	Виды.Вставить("AccumulationRegister", AccumulationRegister());
+	Виды.Вставить("BusinessProcess", BusinessProcess());
+	Виды.Вставить("CalculationRegister", CalculationRegister());
+	Виды.Вставить("Catalog", Catalog());
+	Виды.Вставить("ChartOfAccounts", ChartOfAccounts());
+	Виды.Вставить("ChartOfCalculationTypes", ChartOfCalculationTypes());
+	Виды.Вставить("ChartOfCharacteristicTypes", ChartOfCharacteristicTypes());
+	Виды.Вставить("CommandGroup", CommandGroup());
+	Виды.Вставить("CommonAttribute", CommonAttribute());
+	Виды.Вставить("CommonCommand", CommonCommand());
+	Виды.Вставить("CommonForm", CommonForm());
+	Виды.Вставить("CommonModule", CommonModule());
+	Виды.Вставить("CommonPicture", CommonPicture());
+	Виды.Вставить("CommonTemplate", CommonTemplate());
+	Виды.Вставить("Constant", Constant());
+	Виды.Вставить("DataProcessor", DataProcessor());
+	Виды.Вставить("DocumentJournal", DocumentJournal());
+	Виды.Вставить("DocumentNumerator", DocumentNumerator());
+	Виды.Вставить("Document", Document());
+	Виды.Вставить("Enum", Enum());
+	Виды.Вставить("EventSubscription", EventSubscription());
+	Виды.Вставить("ExchangePlan", ExchangePlan());
+	Виды.Вставить("FilterCriterion", FilterCriterion());
+	Виды.Вставить("FunctionalOption", FunctionalOption());
+	Виды.Вставить("FunctionalOptionsParameter", FunctionalOptionsParameter());
+	Виды.Вставить("HTTPService", HTTPService());
+	Виды.Вставить("InformationRegister", InformationRegister());
+	Виды.Вставить("Report", Report());
+	Виды.Вставить("Role", Role());
+	Виды.Вставить("ScheduledJob", ScheduledJob());
+	Виды.Вставить("Sequence", Sequence());
+	Виды.Вставить("SessionParameter", SessionParameter());
+	Виды.Вставить("SettingsStorage", SettingsStorage());
+	Виды.Вставить("Subsystem", Subsystem());
+	Виды.Вставить("Task", Task());
+	Виды.Вставить("Template", Template());
+	Виды.Вставить("WebService", WebService());
+	Виды.Вставить("WSReference", WSReference());
+	Виды.Вставить("XDTOPackage", XDTOPackage());
+	Виды.Вставить("Form", Form());
 
 	// logform
-	Виды.Insert("LogForm", LogForm());
-	Виды.Insert("FormChildItems", FormChildItems());
+	Виды.Вставить("LogForm", LogForm());
+	Виды.Вставить("FormChildItems", FormChildItems());
 
 	ЗаменитьСсылкиНаТипы(Виды, Виды);
 
@@ -192,10 +192,10 @@
 КонецФункции // Структура()
 
 Функция Объект(База = Неопределено)
-	Объект = Новый Структура("Элементы", Новый Map);
+	Объект = Новый Структура("Элементы", Новый Соответствие);
 	Если База <> Неопределено Тогда
-		Для Каждого Item Из База.Items Цикл
-			Объект.Items.Add(Item);
+		Для Каждого Элемент Из База.Элементы Цикл
+			Объект.Элементы.Add(Элемент);
 		КонецЦикла;
 	КонецЕсли;
 	Возврат Объект;
@@ -206,196 +206,196 @@
 #Область Common
 
 Функция LocalStringType()
-	This = Объект();
-	Элементы = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 	Элементы["item"] = LocalStringTypeItem();
-	Возврат This;
+	Возврат Этот;
 КонецФункции // LocalStringType()
 
 Функция LocalStringTypeItem()
-	This = Структура();
-	This["lang"] = "String";
-	This["content"] = "String";
-	Возврат This;
+	Этот = Структура();
+	Этот["lang"] = "String";
+	Этот["content"] = "String";
+	Возврат Этот;
 КонецФункции // LocalStringTypeItem()
 
 Функция MDListType()
-	This = Объект();
-	Элементы = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 	Элементы["Item"] = MDListTypeItem();
-	Возврат This;
+	Возврат Этот;
 КонецФункции // MDListType()
 
 Функция MDListTypeItem()
-	This = Структура();
-	This["type"] = "String";
-	This["_"] = "String";
-	Возврат This;
+	Этот = Структура();
+	Этот["type"] = "String";
+	Этот["_"] = "String";
+	Возврат Этот;
 КонецФункции // MDListTypeItem()
 
 Функция FieldList()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Field"] = FieldListItem();
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Field"] = FieldListItem();
+	Возврат Этот;
 КонецФункции // FieldList()
 
 Функция FieldListItem()
-	This = Структура();
-	This["type"] = "String";
-	This["_"] = "String";
-	Возврат This;
+	Этот = Структура();
+	Этот["type"] = "String";
+	Этот["_"] = "String";
+	Возврат Этот;
 КонецФункции // FieldListItem()
 
 Функция ChoiceParameterLinks()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Link"] = ChoiceParameterLink();
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Link"] = ChoiceParameterLink();
+	Возврат Этот;
 КонецФункции // ChoiceParameterLinks()
 
 Функция ChoiceParameterLink()
-	This = Структура();
-	This["Name"] = "String";
-	This["DataPath"] = "String";
-	This["ValueChange"] = "String"; // Enums.LinkedValueChangeMode;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["DataPath"] = "String";
+	Этот["ValueChange"] = "String"; // Enums.LinkedValueChangeMode;
+	Возврат Этот;
 КонецФункции // ChoiceParameterLink()
 
 Функция TypeLink() // todo: check
-	This = Структура();
-	This["DataPath"] = "DataPath";
-	This["LinkItem"] = "Decimal";
-	This["ValueChange"] = "String"; // Enums.LinkedValueChangeMode;
-	Возврат This;
+	Этот = Структура();
+	Этот["DataPath"] = "DataPath";
+	Этот["LinkItem"] = "Decimal";
+	Этот["ValueChange"] = "String"; // Enums.LinkedValueChangeMode;
+	Возврат Этот;
 КонецФункции // TypeLink()
 
 Функция StandardAttributes()
-	This = Объект();
-	Items = This.Элементы;
-	Items["StandardAttribute"] = StandardAttribute();
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["StandardAttribute"] = StandardAttribute();
+	Возврат Этот;
 КонецФункции // StandardAttributes()
 
 Функция StandardAttribute()
-	This = Структура();
-	This["name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["ToolTip"] = "LocalStringType";
-	This["QuickChoice"] = "String"; // Enums.UseQuickChoice;
-	This["FillChecking"] = "String"; // Enums.FillChecking;
-	//This["FillValue"]             = ;
-	This["FillFromFillingValue"] = "String"; // Enums.Boolean;
-	This["ChoiceParameterLinks"] = "ChoiceParameterLinks";
-	//This["ChoiceParameters"]      = ;
-	This["LinkByType"] = "TypeLink";
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["PasswordMode"] = "String"; // Enums.Boolean;
-	This["DataHistory"] = "String"; // Enums.DataHistoryUse;
-	This["Format"] = "LocalStringType";
-	This["EditFormat"] = "LocalStringType";
-	This["Mask"] = "String";
-	This["MultiLine"] = "String"; // Enums.Boolean;
-	This["ExtendedEdit"] = "String"; // Enums.Boolean;
-	//This["MinValue"]              = ;
-	//This["MaxValue"]              = ;
-	This["MarkNegatives"] = "String"; // Enums.Boolean;
-	This["ChoiceForm"] = "MDObjectRef";
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	Возврат This;
+	Этот = Структура();
+	Этот["name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["ToolTip"] = "LocalStringType";
+	Этот["QuickChoice"] = "String"; // Enums.UseQuickChoice;
+	Этот["FillChecking"] = "String"; // Enums.FillChecking;
+	//Этот["FillValue"]             = ;
+	Этот["FillFromFillingValue"] = "String"; // Enums.Boolean;
+	Этот["ChoiceParameterLinks"] = "ChoiceParameterLinks";
+	//Этот["ChoiceParameters"]      = ;
+	Этот["LinkByType"] = "TypeLink";
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["PasswordMode"] = "String"; // Enums.Boolean;
+	Этот["DataHistory"] = "String"; // Enums.DataHistoryUse;
+	Этот["Format"] = "LocalStringType";
+	Этот["EditFormat"] = "LocalStringType";
+	Этот["Mask"] = "String";
+	Этот["MultiLine"] = "String"; // Enums.Boolean;
+	Этот["ExtendedEdit"] = "String"; // Enums.Boolean;
+	//Этот["MinValue"]              = ;
+	//Этот["MaxValue"]              = ;
+	Этот["MarkNegatives"] = "String"; // Enums.Boolean;
+	Этот["ChoiceForm"] = "MDObjectRef";
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Возврат Этот;
 КонецФункции // StandardAttribute()
 
 Функция StandardTabularSections()
-	This = Объект();
-	Items = This.Элементы;
-	Items["StandardTabularSection"] = StandardTabularSection();
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["StandardTabularSection"] = StandardTabularSection();
+	Возврат Этот;
 КонецФункции // StandardTabularSections()
 
 Функция StandardTabularSection()
-	This = Структура();
-	This["name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["ToolTip"] = "LocalStringType";
-	This["FillChecking"] = "String"; // Enums.FillChecking;
-	This["StandardAttributes"] = "StandardAttributes";
-	Возврат This;
+	Этот = Структура();
+	Этот["name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["ToolTip"] = "LocalStringType";
+	Этот["FillChecking"] = "String"; // Enums.FillChecking;
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Возврат Этот;
 КонецФункции // StandardTabularSection()
 
 Функция Characteristics()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Characteristic"] = Characteristic();
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Characteristic"] = Characteristic();
+	Возврат Этот;
 КонецФункции // Characteristics()
 
 Функция Characteristic()
-	This = Структура();
-	This["CharacteristicTypes"] = CharacteristicTypes();
-	This["CharacteristicValues"] = CharacteristicValues();
-	Возврат This;
+	Этот = Структура();
+	Этот["CharacteristicTypes"] = CharacteristicTypes();
+	Этот["CharacteristicValues"] = CharacteristicValues();
+	Возврат Этот;
 КонецФункции // Characteristic()
 
 Функция CharacteristicTypes()
-	This = Структура();
-	This["from"] = "MDObjectRef";
-	This["KeyField"] = "FieldRef";
-	This["TypesFilterField"] = "FieldRef";
-	//This["TypesFilterValue"] = ;
-	Возврат This;
+	Этот = Структура();
+	Этот["from"] = "MDObjectRef";
+	Этот["KeyField"] = "FieldRef";
+	Этот["TypesFilterField"] = "FieldRef";
+	//Этот["TypesFilterValue"] = ;
+	Возврат Этот;
 КонецФункции // CharacteristicTypes()
 
 Функция CharacteristicValues()
-	This = Структура();
-	This["from"] = "MDObjectRef";
-	This["ObjectField"] = "FieldRef";
-	This["TypeField"] = "FieldRef";
-	//This["ValueField"] = ;
-	Возврат This;
+	Этот = Структура();
+	Этот["from"] = "MDObjectRef";
+	Этот["ObjectField"] = "FieldRef";
+	Этот["TypeField"] = "FieldRef";
+	//Этот["ValueField"] = ;
+	Возврат Этот;
 КонецФункции // CharacteristicValues()
 
 Функция TypeDescription()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Type"] = "QName";
-	Items["TypeSet"] = "QName";
-	Items["TypeId"] = "UUID";
-	Items["NumberQualifiers"] = NumberQualifiers();
-	Items["StringQualifiers"] = StringQualifiers();
-	Items["DateQualifiers"] = DateQualifiers();
-	Items["BinaryDataQualifiers"] = BinaryDataQualifiers();
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Type"] = "QName";
+	Элементы["TypeSet"] = "QName";
+	Элементы["TypeId"] = "UUID";
+	Элементы["NumberQualifiers"] = NumberQualifiers();
+	Элементы["StringQualifiers"] = StringQualifiers();
+	Элементы["DateQualifiers"] = DateQualifiers();
+	Элементы["BinaryDataQualifiers"] = BinaryDataQualifiers();
+	Возврат Этот;
 КонецФункции // TypeDescription()
 
 Функция NumberQualifiers()
-	This = Структура();
-	This["Digits"] = "Decimal";
-	This["FractionDigits"] = "Decimal";
-	This["AllowedSign"] = "String"; // Enums.AllowedSign;
-	Возврат This;
+	Этот = Структура();
+	Этот["Digits"] = "Decimal";
+	Этот["FractionDigits"] = "Decimal";
+	Этот["AllowedSign"] = "String"; // Enums.AllowedSign;
+	Возврат Этот;
 КонецФункции // NumberQualifiers()
 
 Функция StringQualifiers()
-	This = Структура();
-	This["Length"] = "Decimal";
-	This["AllowedLength"] = "String"; // Enums.AllowedLength;
-	Возврат This;
+	Этот = Структура();
+	Этот["Length"] = "Decimal";
+	Этот["AllowedLength"] = "String"; // Enums.AllowedLength;
+	Возврат Этот;
 КонецФункции // StringQualifiers()
 
 Функция DateQualifiers()
-	This = Структура();
-	This["DateFractions"] = "String"; // Enums.DateFractions;
-	Возврат This;
+	Этот = Структура();
+	Этот["DateFractions"] = "String"; // Enums.DateFractions;
+	Возврат Этот;
 КонецФункции // DateQualifiers()
 
 Функция BinaryDataQualifiers()
-	This = Структура();
-	This["Length"] = "Decimal";
-	This["AllowedLength"] = "String"; // Enums.AllowedLength;
-	Возврат This;
+	Этот = Структура();
+	Этот["Length"] = "Decimal";
+	Этот["AllowedLength"] = "String"; // Enums.AllowedLength;
+	Возврат Этот;
 КонецФункции // BinaryDataQualifiers()
 
 #КонецОбласти // Common
@@ -403,59 +403,59 @@
 #Область MetaDataObject
 
 Функция MetaDataObject()
-	This = Структура();
-	This["version"] = "Decimal";
-	This["Configuration"] = Configuration();
-	This["Language"] = Language();
-	This["AccountingRegister"] = AccountingRegister();
-	This["AccumulationRegister"] = AccumulationRegister();
-	This["BusinessProcess"] = BusinessProcess();
-	This["CalculationRegister"] = CalculationRegister();
-	This["Catalog"] = Catalog();
-	This["ChartOfAccounts"] = ChartOfAccounts();
-	This["ChartOfCalculationTypes"] = ChartOfCalculationTypes();
-	This["ChartOfCharacteristicTypes"] = ChartOfCharacteristicTypes();
-	This["CommandGroup"] = CommandGroup();
-	This["CommonAttribute"] = CommonAttribute();
-	This["CommonCommand"] = CommonCommand();
-	This["CommonForm"] = CommonForm();
-	This["CommonModule"] = CommonModule();
-	This["CommonPicture"] = CommonPicture();
-	This["CommonTemplate"] = CommonTemplate();
-	This["Constant"] = Constant();
-	This["DataProcessor"] = DataProcessor();
-	This["DocumentJournal"] = DocumentJournal();
-	This["DocumentNumerator"] = DocumentNumerator();
-	This["Document"] = Document();
-	This["Enum"] = Enum();
-	This["EventSubscription"] = EventSubscription();
-	This["ExchangePlan"] = ExchangePlan();
-	This["FilterCriterion"] = FilterCriterion();
-	This["FunctionalOption"] = FunctionalOption();
-	This["FunctionalOptionsParameter"] = FunctionalOptionsParameter();
-	This["HTTPService"] = HTTPService();
-	This["InformationRegister"] = InformationRegister();
-	This["Report"] = Report();
-	This["Role"] = Role();
-	This["ScheduledJob"] = ScheduledJob();
-	This["Sequence"] = Sequence();
-	This["SessionParameter"] = SessionParameter();
-	This["SettingsStorage"] = SettingsStorage();
-	This["Subsystem"] = Subsystem();
-	This["Task"] = Task();
-	This["Template"] = Template();
-	This["WebService"] = WebService();
-	This["WSReference"] = WSReference();
-	This["XDTOPackage"] = XDTOPackage();
-	This["Form"] = Form();
-	Возврат This;
+	Этот = Структура();
+	Этот["version"] = "Decimal";
+	Этот["Configuration"] = Configuration();
+	Этот["Language"] = Language();
+	Этот["AccountingRegister"] = AccountingRegister();
+	Этот["AccumulationRegister"] = AccumulationRegister();
+	Этот["BusinessProcess"] = BusinessProcess();
+	Этот["CalculationRegister"] = CalculationRegister();
+	Этот["Catalog"] = Catalog();
+	Этот["ChartOfAccounts"] = ChartOfAccounts();
+	Этот["ChartOfCalculationTypes"] = ChartOfCalculationTypes();
+	Этот["ChartOfCharacteristicTypes"] = ChartOfCharacteristicTypes();
+	Этот["CommandGroup"] = CommandGroup();
+	Этот["CommonAttribute"] = CommonAttribute();
+	Этот["CommonCommand"] = CommonCommand();
+	Этот["CommonForm"] = CommonForm();
+	Этот["CommonModule"] = CommonModule();
+	Этот["CommonPicture"] = CommonPicture();
+	Этот["CommonTemplate"] = CommonTemplate();
+	Этот["Constant"] = Constant();
+	Этот["DataProcessor"] = DataProcessor();
+	Этот["DocumentJournal"] = DocumentJournal();
+	Этот["DocumentNumerator"] = DocumentNumerator();
+	Этот["Document"] = Document();
+	Этот["Enum"] = Enum();
+	Этот["EventSubscription"] = EventSubscription();
+	Этот["ExchangePlan"] = ExchangePlan();
+	Этот["FilterCriterion"] = FilterCriterion();
+	Этот["FunctionalOption"] = FunctionalOption();
+	Этот["FunctionalOptionsParameter"] = FunctionalOptionsParameter();
+	Этот["HTTPService"] = HTTPService();
+	Этот["InformationRegister"] = InformationRegister();
+	Этот["Report"] = Report();
+	Этот["Role"] = Role();
+	Этот["ScheduledJob"] = ScheduledJob();
+	Этот["Sequence"] = Sequence();
+	Этот["SessionParameter"] = SessionParameter();
+	Этот["SettingsStorage"] = SettingsStorage();
+	Этот["Subsystem"] = Subsystem();
+	Этот["Task"] = Task();
+	Этот["Template"] = Template();
+	Этот["WebService"] = WebService();
+	Этот["WSReference"] = WSReference();
+	Этот["XDTOPackage"] = XDTOPackage();
+	Этот["Form"] = Form();
+	Возврат Этот;
 КонецФункции // MetaDataObject()
 
 Функция MDObjectBase()
-	This = Структура();
-	This["uuid"] = "UUID";
-	//This["InternalInfo"] = InternalInfo();
-	Возврат This;
+	Этот = Структура();
+	Этот["uuid"] = "UUID";
+	//Этот["InternalInfo"] = InternalInfo();
+	Возврат Этот;
 КонецФункции // MDObjectBase()
 
 #Область ChildObjects
@@ -463,44 +463,44 @@
 #Область Attribute
 
 Функция Attribute()
-	This = Структура(MDObjectBase());
-	This["Properties"] = AttributeProperties();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = AttributeProperties();
+	Возврат Этот;
 КонецФункции // Attribute()
 
 Функция AttributeProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Type"] = "TypeDescription";
-	This["PasswordMode"] = "String"; // Enums.Boolean;
-	This["Format"] = "LocalStringType";
-	This["EditFormat"] = "LocalStringType";
-	This["ToolTip"] = "LocalStringType";
-	This["MarkNegatives"] = "String"; // Enums.Boolean;
-	This["Mask"] = "String";
-	This["MultiLine"] = "String"; // Enums.Boolean;
-	This["ExtendedEdit"] = "String"; // Enums.Boolean;
-	//This["MinValue"]               = ;
-	//This["MaxValue"]               = ;
-	This["FillFromFillingValue"] = "String"; // Enums.Boolean;
-	//This["FillValue"]              = ;
-	This["FillChecking"] = "String"; // Enums.FillChecking;
-	This["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
-	This["ChoiceParameterLinks"] = "ChoiceParameterLinks";
-	//This["ChoiceParameters"]       = ;
-	This["QuickChoice"] = "String"; // Enums.UseQuickChoice;
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["ChoiceForm"] = "MDObjectRef";
-	This["LinkByType"] = "TypeLink";
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	This["Indexing"] = "String"; // Enums.Indexing;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["Use"] = "String"; // Enums.AttributeUse;
-	This["ScheduleLink"] = "MDObjectRef";
-	This["DataHistory"] = "String"; // Enums.DataHistoryUse;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Type"] = "TypeDescription";
+	Этот["PasswordMode"] = "String"; // Enums.Boolean;
+	Этот["Format"] = "LocalStringType";
+	Этот["EditFormat"] = "LocalStringType";
+	Этот["ToolTip"] = "LocalStringType";
+	Этот["MarkNegatives"] = "String"; // Enums.Boolean;
+	Этот["Mask"] = "String";
+	Этот["MultiLine"] = "String"; // Enums.Boolean;
+	Этот["ExtendedEdit"] = "String"; // Enums.Boolean;
+	//Этот["MinValue"]               = ;
+	//Этот["MaxValue"]               = ;
+	Этот["FillFromFillingValue"] = "String"; // Enums.Boolean;
+	//Этот["FillValue"]              = ;
+	Этот["FillChecking"] = "String"; // Enums.FillChecking;
+	Этот["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
+	Этот["ChoiceParameterLinks"] = "ChoiceParameterLinks";
+	//Этот["ChoiceParameters"]       = ;
+	Этот["QuickChoice"] = "String"; // Enums.UseQuickChoice;
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["ChoiceForm"] = "MDObjectRef";
+	Этот["LinkByType"] = "TypeLink";
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Этот["Indexing"] = "String"; // Enums.Indexing;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["Use"] = "String"; // Enums.AttributeUse;
+	Этот["ScheduleLink"] = "MDObjectRef";
+	Этот["DataHistory"] = "String"; // Enums.DataHistoryUse;
+	Возврат Этот;
 КонецФункции // AttributeProperties()
 
 #КонецОбласти // Attribute
@@ -508,54 +508,54 @@
 #Область Dimension
 
 Функция Dimension()
-	This = Структура(MDObjectBase());
-	This["Properties"] = DimensionProperties();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = DimensionProperties();
+	Возврат Этот;
 КонецФункции // Dimension()
 
 Функция DimensionProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Type"] = "TypeDescription";
-	This["PasswordMode"] = "String"; // Enums.Boolean;
-	This["Format"] = "LocalStringType";
-	This["EditFormat"] = "LocalStringType";
-	This["ToolTip"] = "LocalStringType";
-	This["MarkNegatives"] = "String"; // Enums.Boolean;
-	This["Mask"] = "String";
-	This["MultiLine"] = "String"; // Enums.Boolean;
-	This["ExtendedEdit"] = "String"; // Enums.Boolean;
-	//This["MinValue"]               = ;
-	//This["MaxValue"]               = ;
-	This["FillChecking"] = "String"; // Enums.FillChecking;
-	This["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
-	This["ChoiceParameterLinks"] = "ChoiceParameterLinks";
-	//This["ChoiceParameters"]       = ;
-	This["QuickChoice"] = "String"; // Enums.UseQuickChoice;
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["ChoiceForm"] = "MDObjectRef";
-	This["LinkByType"] = "TypeLink";
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	This["Balance"] = "String"; // Enums.Boolean;
-	This["AccountingFlag"] = "MDObjectRef";
-	This["DenyIncompleteValues"] = "String"; // Enums.Boolean;
-	This["Indexing"] = "String"; // Enums.Indexing;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["UseInTotals"] = "String"; // Enums.Boolean;
-	This["RegisterDimension"] = "MDObjectRef";
-	This["LeadingRegisterData"] = "MDListType";
-	This["FillFromFillingValue"] = "String"; // Enums.Boolean;
-	//This["FillValue"]              = ;
-	This["Master"] = "String"; // Enums.Boolean;
-	This["MainFilter"] = "String"; // Enums.Boolean;
-	This["BaseDimension"] = "String"; // Enums.Boolean;
-	This["ScheduleLink"] = "MDObjectRef";
-	This["DocumentMap"] = "MDListType";
-	This["RegisterRecordsMap"] = "MDListType";
-	This["DataHistory"] = "String"; // Enums.DataHistoryUse;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Type"] = "TypeDescription";
+	Этот["PasswordMode"] = "String"; // Enums.Boolean;
+	Этот["Format"] = "LocalStringType";
+	Этот["EditFormat"] = "LocalStringType";
+	Этот["ToolTip"] = "LocalStringType";
+	Этот["MarkNegatives"] = "String"; // Enums.Boolean;
+	Этот["Mask"] = "String";
+	Этот["MultiLine"] = "String"; // Enums.Boolean;
+	Этот["ExtendedEdit"] = "String"; // Enums.Boolean;
+	//Этот["MinValue"]               = ;
+	//Этот["MaxValue"]               = ;
+	Этот["FillChecking"] = "String"; // Enums.FillChecking;
+	Этот["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
+	Этот["ChoiceParameterLinks"] = "ChoiceParameterLinks";
+	//Этот["ChoiceParameters"]       = ;
+	Этот["QuickChoice"] = "String"; // Enums.UseQuickChoice;
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["ChoiceForm"] = "MDObjectRef";
+	Этот["LinkByType"] = "TypeLink";
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Этот["Balance"] = "String"; // Enums.Boolean;
+	Этот["AccountingFlag"] = "MDObjectRef";
+	Этот["DenyIncompleteValues"] = "String"; // Enums.Boolean;
+	Этот["Indexing"] = "String"; // Enums.Indexing;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["UseInTotals"] = "String"; // Enums.Boolean;
+	Этот["RegisterDimension"] = "MDObjectRef";
+	Этот["LeadingRegisterData"] = "MDListType";
+	Этот["FillFromFillingValue"] = "String"; // Enums.Boolean;
+	//Этот["FillValue"]              = ;
+	Этот["Master"] = "String"; // Enums.Boolean;
+	Этот["MainFilter"] = "String"; // Enums.Boolean;
+	Этот["BaseDimension"] = "String"; // Enums.Boolean;
+	Этот["ScheduleLink"] = "MDObjectRef";
+	Этот["DocumentMap"] = "MDListType";
+	Этот["RegisterRecordsMap"] = "MDListType";
+	Этот["DataHistory"] = "String"; // Enums.DataHistoryUse;
+	Возврат Этот;
 КонецФункции // DimensionProperties()
 
 #КонецОбласти // Dimension
@@ -563,46 +563,46 @@
 #Область Resource
 
 Функция Resource()
-	This = Структура(MDObjectBase());
-	This["Properties"] = ResourceProperties();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = ResourceProperties();
+	Возврат Этот;
 КонецФункции // Resource()
 
 Функция ResourceProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Type"] = "TypeDescription";
-	This["PasswordMode"] = "String"; // Enums.Boolean;
-	This["Format"] = "LocalStringType";
-	This["EditFormat"] = "LocalStringType";
-	This["ToolTip"] = "LocalStringType";
-	This["MarkNegatives"] = "String"; // Enums.Boolean;
-	This["Mask"] = "String";
-	This["MultiLine"] = "String"; // Enums.Boolean;
-	This["ExtendedEdit"] = "String"; // Enums.Boolean;
-	//This["MinValue"]                    = ;
-	//This["MaxValue"]                    = ;
-	This["FillChecking"] = "String"; // Enums.FillChecking;
-	This["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
-	This["ChoiceParameterLinks"] = "ChoiceParameterLinks";
-	//This["ChoiceParameters"]            = ;
-	This["QuickChoice"] = "String"; // Enums.UseQuickChoice;
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["ChoiceForm"] = "MDObjectRef";
-	This["LinkByType"] = "TypeLink";
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["Balance"] = "String"; // Enums.Boolean;
-	This["AccountingFlag"] = "MDObjectRef";
-	This["ExtDimensionAccountingFlag"] = "MDObjectRef";
-	This["NameInDataSource"] = "String";
-	This["FillFromFillingValue"] = "String"; // Enums.Boolean;
-	//This["FillValue"]                   = ;
-	This["Indexing"] = "String"; // Enums.Indexing;
-	This["DataHistory"] = "String"; // Enums.DataHistoryUse;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Type"] = "TypeDescription";
+	Этот["PasswordMode"] = "String"; // Enums.Boolean;
+	Этот["Format"] = "LocalStringType";
+	Этот["EditFormat"] = "LocalStringType";
+	Этот["ToolTip"] = "LocalStringType";
+	Этот["MarkNegatives"] = "String"; // Enums.Boolean;
+	Этот["Mask"] = "String";
+	Этот["MultiLine"] = "String"; // Enums.Boolean;
+	Этот["ExtendedEdit"] = "String"; // Enums.Boolean;
+	//Этот["MinValue"]                    = ;
+	//Этот["MaxValue"]                    = ;
+	Этот["FillChecking"] = "String"; // Enums.FillChecking;
+	Этот["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
+	Этот["ChoiceParameterLinks"] = "ChoiceParameterLinks";
+	//Этот["ChoiceParameters"]            = ;
+	Этот["QuickChoice"] = "String"; // Enums.UseQuickChoice;
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["ChoiceForm"] = "MDObjectRef";
+	Этот["LinkByType"] = "TypeLink";
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["Balance"] = "String"; // Enums.Boolean;
+	Этот["AccountingFlag"] = "MDObjectRef";
+	Этот["ExtDimensionAccountingFlag"] = "MDObjectRef";
+	Этот["NameInDataSource"] = "String";
+	Этот["FillFromFillingValue"] = "String"; // Enums.Boolean;
+	//Этот["FillValue"]                   = ;
+	Этот["Indexing"] = "String"; // Enums.Indexing;
+	Этот["DataHistory"] = "String"; // Enums.DataHistoryUse;
+	Возврат Этот;
 КонецФункции // ResourceProperties()
 
 #КонецОбласти // Resource
@@ -610,39 +610,39 @@
 #Область AccountingFlag
 
 Функция AccountingFlag()
-	This = Структура(MDObjectBase());
-	This["Properties"] = AccountingFlagProperties();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = AccountingFlagProperties();
+	Возврат Этот;
 КонецФункции // AccountingFlag()
 
 Функция AccountingFlagProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Type"] = "TypeDescription";
-	This["PasswordMode"] = "String"; // Enums.Boolean;
-	This["Format"] = "LocalStringType";
-	This["EditFormat"] = "LocalStringType";
-	This["ToolTip"] = "LocalStringType";
-	This["MarkNegatives"] = "String"; // Enums.Boolean;
-	This["Mask"] = "String";
-	This["MultiLine"] = "String"; // Enums.Boolean;
-	This["ExtendedEdit"] = "String"; // Enums.Boolean;
-	//This["MinValue"]               = ;
-	//This["MaxValue"]               = ;
-	This["FillFromFillingValue"] = "String"; // Enums.Boolean;
-	//This["FillValue"]              = ;
-	This["FillChecking"] = "String"; // Enums.FillChecking;
-	This["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
-	This["ChoiceParameterLinks"] = "ChoiceParameterLinks";
-	//This["ChoiceParameters"]       = ;
-	This["QuickChoice"] = "String"; // Enums.UseQuickChoice;
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["ChoiceForm"] = "MDObjectRef";
-	This["LinkByType"] = "TypeLink";
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Type"] = "TypeDescription";
+	Этот["PasswordMode"] = "String"; // Enums.Boolean;
+	Этот["Format"] = "LocalStringType";
+	Этот["EditFormat"] = "LocalStringType";
+	Этот["ToolTip"] = "LocalStringType";
+	Этот["MarkNegatives"] = "String"; // Enums.Boolean;
+	Этот["Mask"] = "String";
+	Этот["MultiLine"] = "String"; // Enums.Boolean;
+	Этот["ExtendedEdit"] = "String"; // Enums.Boolean;
+	//Этот["MinValue"]               = ;
+	//Этот["MaxValue"]               = ;
+	Этот["FillFromFillingValue"] = "String"; // Enums.Boolean;
+	//Этот["FillValue"]              = ;
+	Этот["FillChecking"] = "String"; // Enums.FillChecking;
+	Этот["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
+	Этот["ChoiceParameterLinks"] = "ChoiceParameterLinks";
+	//Этот["ChoiceParameters"]       = ;
+	Этот["QuickChoice"] = "String"; // Enums.UseQuickChoice;
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["ChoiceForm"] = "MDObjectRef";
+	Этот["LinkByType"] = "TypeLink";
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Возврат Этот;
 КонецФункции // AccountingFlagProperties()
 
 #КонецОбласти // AccountingFlag
@@ -650,39 +650,39 @@
 #Область ExtDimensionAccountingFlag
 
 Функция ExtDimensionAccountingFlag()
-	This = Структура(MDObjectBase());
-	This["Properties"] = ExtDimensionAccountingFlagProperties();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = ExtDimensionAccountingFlagProperties();
+	Возврат Этот;
 КонецФункции // ExtDimensionAccountingFlag()
 
 Функция ExtDimensionAccountingFlagProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Type"] = "TypeDescription";
-	This["PasswordMode"] = "String"; // Enums.Boolean;
-	This["Format"] = "LocalStringType";
-	This["EditFormat"] = "LocalStringType";
-	This["ToolTip"] = "LocalStringType";
-	This["MarkNegatives"] = "String"; // Enums.Boolean;
-	This["Mask"] = "String";
-	This["MultiLine"] = "String"; // Enums.Boolean;
-	This["ExtendedEdit"] = "String"; // Enums.Boolean;
-	//This["MinValue"]               = ;
-	//This["MaxValue"]               = ;
-	This["FillFromFillingValue"] = "String"; // Enums.Boolean;
-	//This["FillValue"]              = ;
-	This["FillChecking"] = "String"; // Enums.FillChecking;
-	This["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
-	This["ChoiceParameterLinks"] = "ChoiceParameterLinks";
-	//This["ChoiceParameters"]       = ;
-	This["QuickChoice"] = "String"; // Enums.UseQuickChoice;
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["ChoiceForm"] = "MDObjectRef";
-	This["LinkByType"] = "TypeLink";
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Type"] = "TypeDescription";
+	Этот["PasswordMode"] = "String"; // Enums.Boolean;
+	Этот["Format"] = "LocalStringType";
+	Этот["EditFormat"] = "LocalStringType";
+	Этот["ToolTip"] = "LocalStringType";
+	Этот["MarkNegatives"] = "String"; // Enums.Boolean;
+	Этот["Mask"] = "String";
+	Этот["MultiLine"] = "String"; // Enums.Boolean;
+	Этот["ExtendedEdit"] = "String"; // Enums.Boolean;
+	//Этот["MinValue"]               = ;
+	//Этот["MaxValue"]               = ;
+	Этот["FillFromFillingValue"] = "String"; // Enums.Boolean;
+	//Этот["FillValue"]              = ;
+	Этот["FillChecking"] = "String"; // Enums.FillChecking;
+	Этот["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
+	Этот["ChoiceParameterLinks"] = "ChoiceParameterLinks";
+	//Этот["ChoiceParameters"]       = ;
+	Этот["QuickChoice"] = "String"; // Enums.UseQuickChoice;
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["ChoiceForm"] = "MDObjectRef";
+	Этот["LinkByType"] = "TypeLink";
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Возврат Этот;
 КонецФункции // ExtDimensionAccountingFlagProperties()
 
 #КонецОбласти // ExtDimensionAccountingFlag
@@ -690,19 +690,19 @@
 #Область Column
 
 Функция Column()
-	This = Структура(MDObjectBase());
-	This["Properties"] = ColumnProperties();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = ColumnProperties();
+	Возврат Этот;
 КонецФункции // Column()
 
 Функция ColumnProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Indexing"] = "String"; // Enums.Indexing;
-	This["References"] = "MDListType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Indexing"] = "String"; // Enums.Indexing;
+	Этот["References"] = "MDListType";
+	Возврат Этот;
 КонецФункции // ColumnProperties()
 
 #КонецОбласти // Column
@@ -710,17 +710,17 @@
 #Область EnumValue
 
 Функция EnumValue()
-	This = Структура(MDObjectBase());
-	This["Properties"] = EnumValueProperties();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = EnumValueProperties();
+	Возврат Этот;
 КонецФункции // EnumValue()
 
 Функция EnumValueProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Возврат Этот;
 КонецФункции // EnumValueProperties()
 
 #КонецОбласти // EnumValue
@@ -728,21 +728,21 @@
 #Область Form
 
 Функция Form()
-	This = Структура(MDObjectBase());
-	This["Properties"] = FormProperties();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = FormProperties();
+	Возврат Этот;
 КонецФункции // Form()
 
 Функция FormProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["FormType"] = "String"; // Enums.FormType;
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	//This["UsePurposes"]            = "FixedArray";
-	This["ExtendedPresentation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["FormType"] = "String"; // Enums.FormType;
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	//Этот["UsePurposes"]            = "FixedArray";
+	Этот["ExtendedPresentation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // FormProperties()
 
 #КонецОбласти // Form
@@ -750,18 +750,18 @@
 #Область Template
 
 Функция Template()
-	This = Структура(MDObjectBase());
-	This["Properties"] = TemplateProperties();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = TemplateProperties();
+	Возврат Этот;
 КонецФункции // Template()
 
 Функция TemplateProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["TemplateType"] = "String"; // Enums.TemplateType;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["TemplateType"] = "String"; // Enums.TemplateType;
+	Возврат Этот;
 КонецФункции // TemplateProperties()
 
 #КонецОбласти // Template
@@ -769,42 +769,42 @@
 #Область AddressingAttribute
 
 Функция AddressingAttribute()
-	This = Структура(MDObjectBase());
-	This["Properties"] = AddressingAttributeProperties();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = AddressingAttributeProperties();
+	Возврат Этот;
 КонецФункции // AddressingAttribute()
 
 Функция AddressingAttributeProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Type"] = "TypeDescription";
-	This["PasswordMode"] = "String"; // Enums.Boolean;
-	This["Format"] = "LocalStringType";
-	This["EditFormat"] = "LocalStringType";
-	This["ToolTip"] = "LocalStringType";
-	This["MarkNegatives"] = "String"; // Enums.Boolean;
-	This["Mask"] = "String";
-	This["MultiLine"] = "String"; // Enums.Boolean;
-	This["ExtendedEdit"] = "String"; // Enums.Boolean;
-	//This["MinValue"]               = ;
-	//This["MaxValue"]               = ;
-	This["FillFromFillingValue"] = "String"; // Enums.Boolean;
-	//This["FillValue"]              = ;
-	This["FillChecking"] = "String"; // Enums.FillChecking;
-	This["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
-	This["ChoiceParameterLinks"] = "ChoiceParameterLinks";
-	//This["ChoiceParameters"]       = ;
-	This["QuickChoice"] = "String"; // Enums.UseQuickChoice;
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["ChoiceForm"] = "MDObjectRef";
-	This["LinkByType"] = "TypeLink";
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	This["Indexing"] = "String"; // Enums.Indexing;
-	This["AddressingDimension"] = "MDObjectRef";
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Type"] = "TypeDescription";
+	Этот["PasswordMode"] = "String"; // Enums.Boolean;
+	Этот["Format"] = "LocalStringType";
+	Этот["EditFormat"] = "LocalStringType";
+	Этот["ToolTip"] = "LocalStringType";
+	Этот["MarkNegatives"] = "String"; // Enums.Boolean;
+	Этот["Mask"] = "String";
+	Этот["MultiLine"] = "String"; // Enums.Boolean;
+	Этот["ExtendedEdit"] = "String"; // Enums.Boolean;
+	//Этот["MinValue"]               = ;
+	//Этот["MaxValue"]               = ;
+	Этот["FillFromFillingValue"] = "String"; // Enums.Boolean;
+	//Этот["FillValue"]              = ;
+	Этот["FillChecking"] = "String"; // Enums.FillChecking;
+	Этот["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
+	Этот["ChoiceParameterLinks"] = "ChoiceParameterLinks";
+	//Этот["ChoiceParameters"]       = ;
+	Этот["QuickChoice"] = "String"; // Enums.UseQuickChoice;
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["ChoiceForm"] = "MDObjectRef";
+	Этот["LinkByType"] = "TypeLink";
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Этот["Indexing"] = "String"; // Enums.Indexing;
+	Этот["AddressingDimension"] = "MDObjectRef";
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Возврат Этот;
 КонецФункции // AddressingAttributeProperties()
 
 #КонецОбласти // AddressingAttribute
@@ -812,29 +812,29 @@
 #Область TabularSection
 
 Функция TabularSection()
-	This = Структура(MDObjectBase());
-	This["Properties"] = TabularSectionProperties();
-	This["ChildObjects"] = TabularSectionChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = TabularSectionProperties();
+	Этот["ChildObjects"] = TabularSectionChildObjects();
+	Возврат Этот;
 КонецФункции // TabularSection()
 
 Функция TabularSectionProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["ToolTip"] = "LocalStringType";
-	This["FillChecking"] = "String"; // Enums.FillChecking;
-	This["StandardAttributes"] = "StandardAttributes";
-	This["Use"] = "String"; // Enums.AttributeUse;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["ToolTip"] = "LocalStringType";
+	Этот["FillChecking"] = "String"; // Enums.FillChecking;
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["Use"] = "String"; // Enums.AttributeUse;
+	Возврат Этот;
 КонецФункции // TabularSectionProperties()
 
 Функция TabularSectionChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Attribute"] = "Attribute";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Attribute"] = "Attribute";
+	Возврат Этот;
 КонецФункции // TabularSectionChildObjects()
 
 #КонецОбласти // TabularSection
@@ -842,25 +842,25 @@
 #Область Command
 
 Функция Command()
-	This = Структура(MDObjectBase());
-	This["Properties"] = CommandProperties();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = CommandProperties();
+	Возврат Этот;
 КонецФункции // Command()
 
 Функция CommandProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Group"] = "IncludeInCommandCategoriesType";
-	This["CommandParameterType"] = "TypeDescription";
-	This["ParameterUseMode"] = "String"; // Enums.CommandParameterUseMode;
-	This["ModifiesData"] = "String"; // Enums.Boolean;
-	This["Representation"] = "String"; // Enums.ButtonRepresentation;
-	This["ToolTip"] = "LocalStringType";
-	//This["Picture"]               = ;
-	//This["Shortcut"]              = ;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Group"] = "IncludeInCommandCategoriesType";
+	Этот["CommandParameterType"] = "TypeDescription";
+	Этот["ParameterUseMode"] = "String"; // Enums.CommandParameterUseMode;
+	Этот["ModifiesData"] = "String"; // Enums.Boolean;
+	Этот["Representation"] = "String"; // Enums.ButtonRepresentation;
+	Этот["ToolTip"] = "LocalStringType";
+	//Этот["Picture"]               = ;
+	//Этот["Shortcut"]              = ;
+	Возврат Этот;
 КонецФункции // CommandProperties()
 
 #КонецОбласти // Command
@@ -870,110 +870,110 @@
 #Область Configuration
 
 Функция Configuration()
-	This = Структура(MDObjectBase());
-	This["Properties"] = ConfigurationProperties();
-	This["ChildObjects"] = ConfigurationChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = ConfigurationProperties();
+	Этот["ChildObjects"] = ConfigurationChildObjects();
+	Возврат Этот;
 КонецФункции // Configuration()
 
 Функция ConfigurationProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["NamePrefix"] = "String";
-	This["ConfigurationExtensionCompatibilityMode"] = "String"; // Enums.CompatibilityMode;
-	This["DefaultRunMode"] = "String"; // Enums.ClientRunMode;
-	//This["UsePurposes"]                                      = "FixedArray";
-	This["ScriptVariant"] = "String"; // Enums.ScriptVariant;
-	This["DefaultRoles"] = "MDListType";
-	This["Vendor"] = "String";
-	This["Version"] = "String";
-	This["UpdateCatalogAddress"] = "String";
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["UseManagedFormInOrdinaryApplication"] = "String"; // Enums.Boolean;
-	This["UseOrdinaryFormInManagedApplication"] = "String"; // Enums.Boolean;
-	This["AdditionalFullTextSearchDictionaries"] = "MDListType";
-	This["CommonSettingsStorage"] = "MDObjectRef";
-	This["ReportsUserSettingsStorage"] = "MDObjectRef";
-	This["ReportsVariantsStorage"] = "MDObjectRef";
-	This["FormDataSettingsStorage"] = "MDObjectRef";
-	This["DynamicListsUserSettingsStorage"] = "MDObjectRef";
-	This["Content"] = "MDListType";
-	This["DefaultReportForm"] = "MDObjectRef";
-	This["DefaultReportVariantForm"] = "MDObjectRef";
-	This["DefaultReportSettingsForm"] = "MDObjectRef";
-	This["DefaultDynamicListSettingsForm"] = "MDObjectRef";
-	This["DefaultSearchForm"] = "MDObjectRef";
-	//This["RequiredMobileApplicationPermissions"]             = "FixedMap";
-	This["MainClientApplicationWindowMode"] = "String"; // Enums.MainClientApplicationWindowMode;
-	This["DefaultInterface"] = "MDObjectRef";
-	This["DefaultStyle"] = "MDObjectRef";
-	This["DefaultLanguage"] = "MDObjectRef";
-	This["BriefInformation"] = "LocalStringType";
-	This["DetailedInformation"] = "LocalStringType";
-	This["Copyright"] = "LocalStringType";
-	This["VendorInformationAddress"] = "LocalStringType";
-	This["ConfigurationInformationAddress"] = "LocalStringType";
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	This["ObjectAutonumerationMode"] = "String"; // Enums.ObjectAutonumerationMode;
-	This["ModalityUseMode"] = "String"; // Enums.ModalityUseMode;
-	This["SynchronousPlatformExtensionAndAddInCallUseMode"] = "String"; // Enums.SynchronousPlatformExtensionAndAddInCallUseMode;
-	This["InterfaceCompatibilityMode"] = "String"; // Enums.InterfaceCompatibilityMode;
-	This["CompatibilityMode"] = "String"; // Enums.CompatibilityMode;
-	This["DefaultConstantsForm"] = "MDObjectRef";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["NamePrefix"] = "String";
+	Этот["ConfigurationExtensionCompatibilityMode"] = "String"; // Enums.CompatibilityMode;
+	Этот["DefaultRunMode"] = "String"; // Enums.ClientRunMode;
+	//Этот["UsePurposes"]                                      = "FixedArray";
+	Этот["ScriptVariant"] = "String"; // Enums.ScriptVariant;
+	Этот["DefaultRoles"] = "MDListType";
+	Этот["Vendor"] = "String";
+	Этот["Version"] = "String";
+	Этот["UpdateCatalogAddress"] = "String";
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["UseManagedFormInOrdinaryApplication"] = "String"; // Enums.Boolean;
+	Этот["UseOrdinaryFormInManagedApplication"] = "String"; // Enums.Boolean;
+	Этот["AdditionalFullTextSearchDictionaries"] = "MDListType";
+	Этот["CommonSettingsStorage"] = "MDObjectRef";
+	Этот["ReportsUserSettingsStorage"] = "MDObjectRef";
+	Этот["ReportsVariantsStorage"] = "MDObjectRef";
+	Этот["FormDataSettingsStorage"] = "MDObjectRef";
+	Этот["DynamicListsUserSettingsStorage"] = "MDObjectRef";
+	Этот["Content"] = "MDListType";
+	Этот["DefaultReportForm"] = "MDObjectRef";
+	Этот["DefaultReportVariantForm"] = "MDObjectRef";
+	Этот["DefaultReportSettingsForm"] = "MDObjectRef";
+	Этот["DefaultDynamicListSettingsForm"] = "MDObjectRef";
+	Этот["DefaultSearchForm"] = "MDObjectRef";
+	//Этот["RequiredMobileApplicationPermissions"]             = "FixedMap";
+	Этот["MainClientApplicationWindowMode"] = "String"; // Enums.MainClientApplicationWindowMode;
+	Этот["DefaultInterface"] = "MDObjectRef";
+	Этот["DefaultStyle"] = "MDObjectRef";
+	Этот["DefaultLanguage"] = "MDObjectRef";
+	Этот["BriefInformation"] = "LocalStringType";
+	Этот["DetailedInformation"] = "LocalStringType";
+	Этот["Copyright"] = "LocalStringType";
+	Этот["VendorInformationAddress"] = "LocalStringType";
+	Этот["ConfigurationInformationAddress"] = "LocalStringType";
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Этот["ObjectAutonumerationMode"] = "String"; // Enums.ObjectAutonumerationMode;
+	Этот["ModalityUseMode"] = "String"; // Enums.ModalityUseMode;
+	Этот["SynchronousPlatformExtensionAndAddInCallUseMode"] = "String"; // Enums.SynchronousPlatformExtensionAndAddInCallUseMode;
+	Этот["InterfaceCompatibilityMode"] = "String"; // Enums.InterfaceCompatibilityMode;
+	Этот["CompatibilityMode"] = "String"; // Enums.CompatibilityMode;
+	Этот["DefaultConstantsForm"] = "MDObjectRef";
+	Возврат Этот;
 КонецФункции // ConfigurationProperties()
 
 Функция ConfigurationChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Language"] = "String";
-	Items["Subsystem"] = "String";
-	Items["StyleItem"] = "String";
-	Items["Style"] = "String";
-	Items["CommonPicture"] = "String";
-	Items["Interface"] = "String";
-	Items["SessionParameter"] = "String";
-	Items["Role"] = "String";
-	Items["CommonTemplate"] = "String";
-	Items["FilterCriterion"] = "String";
-	Items["CommonModule"] = "String";
-	Items["CommonAttribute"] = "String";
-	Items["ExchangePlan"] = "String";
-	Items["XDTOPackage"] = "String";
-	Items["WebService"] = "String";
-	Items["HTTPService"] = "String";
-	Items["WSReference"] = "String";
-	Items["EventSubscription"] = "String";
-	Items["ScheduledJob"] = "String";
-	Items["SettingsStorage"] = "String";
-	Items["FunctionalOption"] = "String";
-	Items["FunctionalOptionsParameter"] = "String";
-	Items["DefinedType"] = "String";
-	Items["CommonCommand"] = "String";
-	Items["CommandGroup"] = "String";
-	Items["Constant"] = "String";
-	Items["CommonForm"] = "String";
-	Items["Catalog"] = "String";
-	Items["Document"] = "String";
-	Items["DocumentNumerator"] = "String";
-	Items["Sequence"] = "String";
-	Items["DocumentJournal"] = "String";
-	Items["Enum"] = "String";
-	Items["Report"] = "String";
-	Items["DataProcessor"] = "String";
-	Items["InformationRegister"] = "String";
-	Items["AccumulationRegister"] = "String";
-	Items["ChartOfCharacteristicTypes"] = "String";
-	Items["ChartOfAccounts"] = "String";
-	Items["AccountingRegister"] = "String";
-	Items["ChartOfCalculationTypes"] = "String";
-	Items["CalculationRegister"] = "String";
-	Items["BusinessProcess"] = "String";
-	Items["Task"] = "String";
-	Items["ExternalDataSource"] = "String";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Language"] = "String";
+	Элементы["Subsystem"] = "String";
+	Элементы["StyleItem"] = "String";
+	Элементы["Style"] = "String";
+	Элементы["CommonPicture"] = "String";
+	Элементы["Interface"] = "String";
+	Элементы["SessionParameter"] = "String";
+	Элементы["Role"] = "String";
+	Элементы["CommonTemplate"] = "String";
+	Элементы["FilterCriterion"] = "String";
+	Элементы["CommonModule"] = "String";
+	Элементы["CommonAttribute"] = "String";
+	Элементы["ExchangePlan"] = "String";
+	Элементы["XDTOPackage"] = "String";
+	Элементы["WebService"] = "String";
+	Элементы["HTTPService"] = "String";
+	Элементы["WSReference"] = "String";
+	Элементы["EventSubscription"] = "String";
+	Элементы["ScheduledJob"] = "String";
+	Элементы["SettingsStorage"] = "String";
+	Элементы["FunctionalOption"] = "String";
+	Элементы["FunctionalOptionsParameter"] = "String";
+	Элементы["DefinedType"] = "String";
+	Элементы["CommonCommand"] = "String";
+	Элементы["CommandGroup"] = "String";
+	Элементы["Constant"] = "String";
+	Элементы["CommonForm"] = "String";
+	Элементы["Catalog"] = "String";
+	Элементы["Document"] = "String";
+	Элементы["DocumentNumerator"] = "String";
+	Элементы["Sequence"] = "String";
+	Элементы["DocumentJournal"] = "String";
+	Элементы["Enum"] = "String";
+	Элементы["Report"] = "String";
+	Элементы["DataProcessor"] = "String";
+	Элементы["InformationRegister"] = "String";
+	Элементы["AccumulationRegister"] = "String";
+	Элементы["ChartOfCharacteristicTypes"] = "String";
+	Элементы["ChartOfAccounts"] = "String";
+	Элементы["AccountingRegister"] = "String";
+	Элементы["ChartOfCalculationTypes"] = "String";
+	Элементы["CalculationRegister"] = "String";
+	Элементы["BusinessProcess"] = "String";
+	Элементы["Task"] = "String";
+	Элементы["ExternalDataSource"] = "String";
+	Возврат Этот;
 КонецФункции // ConfigurationChildObjects()
 
 #КонецОбласти // Configuration
@@ -981,18 +981,18 @@
 #Область Language
 
 Функция Language()
-	This = Структура(MDObjectBase());
-	This["Properties"] = LanguageProperties();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = LanguageProperties();
+	Возврат Этот;
 КонецФункции // Foo()
 
 Функция LanguageProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["LanguageCode"] = "String";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["LanguageCode"] = "String";
+	Возврат Этот;
 КонецФункции // LanguageProperties()
 
 #КонецОбласти // Language
@@ -1000,44 +1000,44 @@
 #Область AccountingRegister
 
 Функция AccountingRegister()
-	This = Структура(MDObjectBase());
-	This["Properties"] = AccountingRegisterProperties();
-	This["ChildObjects"] = AccountingRegisterChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = AccountingRegisterProperties();
+	Этот["ChildObjects"] = AccountingRegisterChildObjects();
+	Возврат Этот;
 КонецФункции // AccountingRegister()
 
 Функция AccountingRegisterProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["ChartOfAccounts"] = "MDObjectRef";
-	This["Correspondence"] = "String"; // Enums.Boolean;
-	This["PeriodAdjustmentLength"] = "Decimal";
-	This["DefaultListForm"] = "MDObjectRef";
-	This["AuxiliaryListForm"] = "MDObjectRef";
-	This["StandardAttributes"] = "StandardAttributes";
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	This["EnableTotalsSplitting"] = "String"; // Enums.Boolean;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["ChartOfAccounts"] = "MDObjectRef";
+	Этот["Correspondence"] = "String"; // Enums.Boolean;
+	Этот["PeriodAdjustmentLength"] = "Decimal";
+	Этот["DefaultListForm"] = "MDObjectRef";
+	Этот["AuxiliaryListForm"] = "MDObjectRef";
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Этот["EnableTotalsSplitting"] = "String"; // Enums.Boolean;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // AccountingRegisterProperties()
 
 Функция AccountingRegisterChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Dimension"] = "Dimension";
-	Items["Resource"] = "Resource";
-	Items["Attribute"] = "Attribute";
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Dimension"] = "Dimension";
+	Элементы["Resource"] = "Resource";
+	Элементы["Attribute"] = "Attribute";
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // AccountingRegisterChildObjects()
 
 #КонецОбласти // AccountingRegister
@@ -1045,42 +1045,42 @@
 #Область AccumulationRegister
 
 Функция AccumulationRegister()
-	This = Структура(MDObjectBase());
-	This["Properties"] = AccumulationRegisterProperties();
-	This["ChildObjects"] = AccumulationRegisterChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = AccumulationRegisterProperties();
+	Этот["ChildObjects"] = AccumulationRegisterChildObjects();
+	Возврат Этот;
 КонецФункции // AccumulationRegister()
 
 Функция AccumulationRegisterProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["DefaultListForm"] = "MDObjectRef";
-	This["AuxiliaryListForm"] = "MDObjectRef";
-	This["RegisterType"] = "String"; // Enums.AccumulationRegisterType;
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["StandardAttributes"] = "StandardAttributes";
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["EnableTotalsSplitting"] = "String"; // Enums.Boolean;
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["DefaultListForm"] = "MDObjectRef";
+	Этот["AuxiliaryListForm"] = "MDObjectRef";
+	Этот["RegisterType"] = "String"; // Enums.AccumulationRegisterType;
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["EnableTotalsSplitting"] = "String"; // Enums.Boolean;
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // AccumulationRegisterProperties()
 
 Функция AccumulationRegisterChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Resource"] = "Resource";
-	Items["Attribute"] = "Attribute";
-	Items["Dimension"] = "Dimension";
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Resource"] = "Resource";
+	Элементы["Attribute"] = "Attribute";
+	Элементы["Dimension"] = "Dimension";
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // AccumulationRegisterChildObjects()
 
 #КонецОбласти // AccumulationRegister
@@ -1088,63 +1088,63 @@
 #Область BusinessProcess
 
 Функция BusinessProcess()
-	This = Структура(MDObjectBase());
-	This["Properties"] = BusinessProcessProperties();
-	This["ChildObjects"] = BusinessProcessChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = BusinessProcessProperties();
+	Этот["ChildObjects"] = BusinessProcessChildObjects();
+	Возврат Этот;
 КонецФункции // BusinessProcess()
 
 Функция BusinessProcessProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["EditType"] = "String"; // Enums.EditType;
-	This["InputByString"] = "FieldList";
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
-	This["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
-	This["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
-	This["DefaultObjectForm"] = "MDObjectRef";
-	This["DefaultListForm"] = "MDObjectRef";
-	This["DefaultChoiceForm"] = "MDObjectRef";
-	This["AuxiliaryObjectForm"] = "MDObjectRef";
-	This["AuxiliaryListForm"] = "MDObjectRef";
-	This["AuxiliaryChoiceForm"] = "MDObjectRef";
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	This["NumberType"] = "String"; // Enums.BusinessProcessNumberType;
-	This["NumberLength"] = "Decimal";
-	This["NumberAllowedLength"] = "String"; // Enums.AllowedLength;
-	This["CheckUnique"] = "String"; // Enums.Boolean;
-	This["StandardAttributes"] = "StandardAttributes";
-	This["Characteristics"] = "Characteristics";
-	This["Autonumbering"] = "String"; // Enums.Boolean;
-	This["BasedOn"] = "MDListType";
-	This["NumberPeriodicity"] = "String"; // Enums.BusinessProcessNumberPeriodicity;
-	This["Task"] = "MDObjectRef";
-	This["CreateTaskInPrivilegedMode"] = "String"; // Enums.Boolean;
-	This["DataLockFields"] = "FieldList";
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["ObjectPresentation"] = "LocalStringType";
-	This["ExtendedObjectPresentation"] = "LocalStringType";
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["EditType"] = "String"; // Enums.EditType;
+	Этот["InputByString"] = "FieldList";
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
+	Этот["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
+	Этот["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
+	Этот["DefaultObjectForm"] = "MDObjectRef";
+	Этот["DefaultListForm"] = "MDObjectRef";
+	Этот["DefaultChoiceForm"] = "MDObjectRef";
+	Этот["AuxiliaryObjectForm"] = "MDObjectRef";
+	Этот["AuxiliaryListForm"] = "MDObjectRef";
+	Этот["AuxiliaryChoiceForm"] = "MDObjectRef";
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Этот["NumberType"] = "String"; // Enums.BusinessProcessNumberType;
+	Этот["NumberLength"] = "Decimal";
+	Этот["NumberAllowedLength"] = "String"; // Enums.AllowedLength;
+	Этот["CheckUnique"] = "String"; // Enums.Boolean;
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["Characteristics"] = "Characteristics";
+	Этот["Autonumbering"] = "String"; // Enums.Boolean;
+	Этот["BasedOn"] = "MDListType";
+	Этот["NumberPeriodicity"] = "String"; // Enums.BusinessProcessNumberPeriodicity;
+	Этот["Task"] = "MDObjectRef";
+	Этот["CreateTaskInPrivilegedMode"] = "String"; // Enums.Boolean;
+	Этот["DataLockFields"] = "FieldList";
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["ObjectPresentation"] = "LocalStringType";
+	Этот["ExtendedObjectPresentation"] = "LocalStringType";
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // BusinessProcessProperties()
 
 Функция BusinessProcessChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Attribute"] = "Attribute";
-	Items["TabularSection"] = "TabularSection";
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Attribute"] = "Attribute";
+	Элементы["TabularSection"] = "TabularSection";
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // BusinessProcessChildObjects()
 
 #КонецОбласти // BusinessProcess
@@ -1152,48 +1152,48 @@
 #Область CalculationRegister
 
 Функция CalculationRegister()
-	This = Структура(MDObjectBase());
-	This["Properties"] = CalculationRegisterProperties();
-	This["ChildObjects"] = CalculationRegisterChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = CalculationRegisterProperties();
+	Этот["ChildObjects"] = CalculationRegisterChildObjects();
+	Возврат Этот;
 КонецФункции // CalculationRegister()
 
 Функция CalculationRegisterProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["DefaultListForm"] = "MDObjectRef";
-	This["AuxiliaryListForm"] = "MDObjectRef";
-	This["Periodicity"] = "String"; // Enums.CalculationRegisterPeriodicity;
-	This["ActionPeriod"] = "String"; // Enums.Boolean;
-	This["BasePeriod"] = "String"; // Enums.Boolean;
-	This["Schedule"] = "MDObjectRef";
-	This["ScheduleValue"] = "MDObjectRef";
-	This["ScheduleDate"] = "MDObjectRef";
-	This["ChartOfCalculationTypes"] = "MDObjectRef";
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["StandardAttributes"] = "StandardAttributes";
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["DefaultListForm"] = "MDObjectRef";
+	Этот["AuxiliaryListForm"] = "MDObjectRef";
+	Этот["Periodicity"] = "String"; // Enums.CalculationRegisterPeriodicity;
+	Этот["ActionPeriod"] = "String"; // Enums.Boolean;
+	Этот["BasePeriod"] = "String"; // Enums.Boolean;
+	Этот["Schedule"] = "MDObjectRef";
+	Этот["ScheduleValue"] = "MDObjectRef";
+	Этот["ScheduleDate"] = "MDObjectRef";
+	Этот["ChartOfCalculationTypes"] = "MDObjectRef";
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // CalculationRegisterProperties()
 
 Функция CalculationRegisterChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Resource"] = "Resource";
-	Items["Attribute"] = "Attribute";
-	Items["Dimension"] = "Dimension";
-	Items["Recalculation"] = "String";
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Resource"] = "Resource";
+	Элементы["Attribute"] = "Attribute";
+	Элементы["Dimension"] = "Dimension";
+	Элементы["Recalculation"] = "String";
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // CalculationRegisterChildObjects()
 
 #КонецОбласти // CalculationRegister
@@ -1201,78 +1201,78 @@
 #Область Catalog
 
 Функция Catalog()
-	This = Структура(MDObjectBase());
-	This["Properties"] = CatalogProperties();
-	This["ChildObjects"] = CatalogChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = CatalogProperties();
+	Этот["ChildObjects"] = CatalogChildObjects();
+	Возврат Этот;
 КонецФункции // Catalog()
 
 Функция CatalogProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Hierarchical"] = "String"; // Enums.Boolean;
-	This["HierarchyType"] = "String"; // Enums.HierarchyType;
-	This["LimitLevelCount"] = "String"; // Enums.Boolean;
-	This["LevelCount"] = "Decimal";
-	This["FoldersOnTop"] = "String"; // Enums.Boolean;
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["Owners"] = "MDListType";
-	This["SubordinationUse"] = "String"; // Enums.SubordinationUse;
-	This["CodeLength"] = "Decimal";
-	This["DescriptionLength"] = "Decimal";
-	This["CodeType"] = "String"; // Enums.CatalogCodeType;
-	This["CodeAllowedLength"] = "String"; // Enums.AllowedLength;
-	This["CodeSeries"] = "String"; // Enums.CatalogCodesSeries;
-	This["CheckUnique"] = "String"; // Enums.Boolean;
-	This["Autonumbering"] = "String"; // Enums.Boolean;
-	This["DefaultPresentation"] = "String"; // Enums.CatalogMainPresentation;
-	This["StandardAttributes"] = "StandardAttributes";
-	This["Characteristics"] = "Characteristics";
-	This["PredefinedDataUpdate"] = "String"; // Enums.PredefinedDataUpdate;
-	This["EditType"] = "String"; // Enums.EditType;
-	This["QuickChoice"] = "String"; // Enums.Boolean;
-	This["ChoiceMode"] = "String"; // Enums.ChoiceMode;
-	This["InputByString"] = "FieldList";
-	This["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
-	This["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
-	This["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
-	This["DefaultObjectForm"] = "MDObjectRef";
-	This["DefaultFolderForm"] = "MDObjectRef";
-	This["DefaultListForm"] = "MDObjectRef";
-	This["DefaultChoiceForm"] = "MDObjectRef";
-	This["DefaultFolderChoiceForm"] = "MDObjectRef";
-	This["AuxiliaryObjectForm"] = "MDObjectRef";
-	This["AuxiliaryFolderForm"] = "MDObjectRef";
-	This["AuxiliaryListForm"] = "MDObjectRef";
-	This["AuxiliaryChoiceForm"] = "MDObjectRef";
-	This["AuxiliaryFolderChoiceForm"] = "MDObjectRef";
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["BasedOn"] = "MDListType";
-	This["DataLockFields"] = "FieldList";
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["ObjectPresentation"] = "LocalStringType";
-	This["ExtendedObjectPresentation"] = "LocalStringType";
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	This["DataHistory"] = "String"; // Enums.DataHistoryUse;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Hierarchical"] = "String"; // Enums.Boolean;
+	Этот["HierarchyType"] = "String"; // Enums.HierarchyType;
+	Этот["LimitLevelCount"] = "String"; // Enums.Boolean;
+	Этот["LevelCount"] = "Decimal";
+	Этот["FoldersOnTop"] = "String"; // Enums.Boolean;
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["Owners"] = "MDListType";
+	Этот["SubordinationUse"] = "String"; // Enums.SubordinationUse;
+	Этот["CodeLength"] = "Decimal";
+	Этот["DescriptionLength"] = "Decimal";
+	Этот["CodeType"] = "String"; // Enums.CatalogCodeType;
+	Этот["CodeAllowedLength"] = "String"; // Enums.AllowedLength;
+	Этот["CodeSeries"] = "String"; // Enums.CatalogCodesSeries;
+	Этот["CheckUnique"] = "String"; // Enums.Boolean;
+	Этот["Autonumbering"] = "String"; // Enums.Boolean;
+	Этот["DefaultPresentation"] = "String"; // Enums.CatalogMainPresentation;
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["Characteristics"] = "Characteristics";
+	Этот["PredefinedDataUpdate"] = "String"; // Enums.PredefinedDataUpdate;
+	Этот["EditType"] = "String"; // Enums.EditType;
+	Этот["QuickChoice"] = "String"; // Enums.Boolean;
+	Этот["ChoiceMode"] = "String"; // Enums.ChoiceMode;
+	Этот["InputByString"] = "FieldList";
+	Этот["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
+	Этот["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
+	Этот["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
+	Этот["DefaultObjectForm"] = "MDObjectRef";
+	Этот["DefaultFolderForm"] = "MDObjectRef";
+	Этот["DefaultListForm"] = "MDObjectRef";
+	Этот["DefaultChoiceForm"] = "MDObjectRef";
+	Этот["DefaultFolderChoiceForm"] = "MDObjectRef";
+	Этот["AuxiliaryObjectForm"] = "MDObjectRef";
+	Этот["AuxiliaryFolderForm"] = "MDObjectRef";
+	Этот["AuxiliaryListForm"] = "MDObjectRef";
+	Этот["AuxiliaryChoiceForm"] = "MDObjectRef";
+	Этот["AuxiliaryFolderChoiceForm"] = "MDObjectRef";
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["BasedOn"] = "MDListType";
+	Этот["DataLockFields"] = "FieldList";
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["ObjectPresentation"] = "LocalStringType";
+	Этот["ExtendedObjectPresentation"] = "LocalStringType";
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Этот["DataHistory"] = "String"; // Enums.DataHistoryUse;
+	Возврат Этот;
 КонецФункции // CatalogProperties()
 
 Функция CatalogChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Attribute"] = "Attribute";
-	Items["TabularSection"] = "TabularSection";
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Attribute"] = "Attribute";
+	Элементы["TabularSection"] = "TabularSection";
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // CatalogChildObjects()
 
 #КонецОбласти // Catalog
@@ -1280,71 +1280,71 @@
 #Область ChartOfAccounts
 
 Функция ChartOfAccounts()
-	This = Структура(MDObjectBase());
-	This["Properties"] = ChartOfAccountsProperties();
-	This["ChildObjects"] = ChartOfAccountsChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = ChartOfAccountsProperties();
+	Этот["ChildObjects"] = ChartOfAccountsChildObjects();
+	Возврат Этот;
 КонецФункции // ChartOfAccounts()
 
 Функция ChartOfAccountsProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["BasedOn"] = "MDListType";
-	This["ExtDimensionTypes"] = "MDObjectRef";
-	This["MaxExtDimensionCount"] = "Decimal";
-	This["CodeMask"] = "String";
-	This["CodeLength"] = "Decimal";
-	This["DescriptionLength"] = "Decimal";
-	This["CodeSeries"] = "String"; // Enums.CharOfAccountCodeSeries;
-	This["CheckUnique"] = "String"; // Enums.Boolean;
-	This["DefaultPresentation"] = "String"; // Enums.AccountMainPresentation;
-	This["StandardAttributes"] = "StandardAttributes";
-	This["Characteristics"] = "Characteristics";
-	This["StandardTabularSections"] = "StandardTabularSections";
-	This["PredefinedDataUpdate"] = "String"; // Enums.PredefinedDataUpdate;
-	This["EditType"] = "String"; // Enums.EditType;
-	This["QuickChoice"] = "String"; // Enums.Boolean;
-	This["ChoiceMode"] = "String"; // Enums.ChoiceMode;
-	This["InputByString"] = "FieldList";
-	This["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
-	This["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
-	This["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	This["DefaultObjectForm"] = "MDObjectRef";
-	This["DefaultListForm"] = "MDObjectRef";
-	This["DefaultChoiceForm"] = "MDObjectRef";
-	This["AuxiliaryObjectForm"] = "MDObjectRef";
-	This["AuxiliaryListForm"] = "MDObjectRef";
-	This["AuxiliaryChoiceForm"] = "MDObjectRef";
-	This["AutoOrderByCode"] = "String"; // Enums.Boolean;
-	This["OrderLength"] = "Decimal";
-	This["DataLockFields"] = "FieldList";
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["ObjectPresentation"] = "LocalStringType";
-	This["ExtendedObjectPresentation"] = "LocalStringType";
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["BasedOn"] = "MDListType";
+	Этот["ExtDimensionTypes"] = "MDObjectRef";
+	Этот["MaxExtDimensionCount"] = "Decimal";
+	Этот["CodeMask"] = "String";
+	Этот["CodeLength"] = "Decimal";
+	Этот["DescriptionLength"] = "Decimal";
+	Этот["CodeSeries"] = "String"; // Enums.CharOfAccountCodeSeries;
+	Этот["CheckUnique"] = "String"; // Enums.Boolean;
+	Этот["DefaultPresentation"] = "String"; // Enums.AccountMainPresentation;
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["Characteristics"] = "Characteristics";
+	Этот["StandardTabularSections"] = "StandardTabularSections";
+	Этот["PredefinedDataUpdate"] = "String"; // Enums.PredefinedDataUpdate;
+	Этот["EditType"] = "String"; // Enums.EditType;
+	Этот["QuickChoice"] = "String"; // Enums.Boolean;
+	Этот["ChoiceMode"] = "String"; // Enums.ChoiceMode;
+	Этот["InputByString"] = "FieldList";
+	Этот["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
+	Этот["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
+	Этот["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Этот["DefaultObjectForm"] = "MDObjectRef";
+	Этот["DefaultListForm"] = "MDObjectRef";
+	Этот["DefaultChoiceForm"] = "MDObjectRef";
+	Этот["AuxiliaryObjectForm"] = "MDObjectRef";
+	Этот["AuxiliaryListForm"] = "MDObjectRef";
+	Этот["AuxiliaryChoiceForm"] = "MDObjectRef";
+	Этот["AutoOrderByCode"] = "String"; // Enums.Boolean;
+	Этот["OrderLength"] = "Decimal";
+	Этот["DataLockFields"] = "FieldList";
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["ObjectPresentation"] = "LocalStringType";
+	Этот["ExtendedObjectPresentation"] = "LocalStringType";
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // ChartOfAccountsProperties()
 
 Функция ChartOfAccountsChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Attribute"] = "Attribute";
-	Items["TabularSection"] = "TabularSection";
-	Items["AccountingFlag"] = "AccountingFlag";
-	Items["ExtDimensionAccountingFlag"] = "ExtDimensionAccountingFlag";
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Attribute"] = "Attribute";
+	Элементы["TabularSection"] = "TabularSection";
+	Элементы["AccountingFlag"] = "AccountingFlag";
+	Элементы["ExtDimensionAccountingFlag"] = "ExtDimensionAccountingFlag";
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // ChartOfAccountsChildObjects()
 
 #КонецОбласти // ChartOfAccounts
@@ -1352,67 +1352,67 @@
 #Область ChartOfCalculationTypes
 
 Функция ChartOfCalculationTypes()
-	This = Структура(MDObjectBase());
-	This["Properties"] = ChartOfCalculationTypesProperties();
-	This["ChildObjects"] = ChartOfCalculationTypesChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = ChartOfCalculationTypesProperties();
+	Этот["ChildObjects"] = ChartOfCalculationTypesChildObjects();
+	Возврат Этот;
 КонецФункции // ChartOfCalculationTypes()
 
 Функция ChartOfCalculationTypesProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["CodeLength"] = "Decimal";
-	This["DescriptionLength"] = "Decimal";
-	This["CodeType"] = "String"; // Enums.ChartOfCalculationTypesCodeType;
-	This["CodeAllowedLength"] = "String"; // Enums.AllowedLength;
-	This["DefaultPresentation"] = "String"; // Enums.CalculationTypeMainPresentation;
-	This["EditType"] = "String"; // Enums.EditType;
-	This["QuickChoice"] = "String"; // Enums.Boolean;
-	This["ChoiceMode"] = "String"; // Enums.ChoiceMode;
-	This["InputByString"] = "FieldList";
-	This["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
-	This["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
-	This["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	This["DefaultObjectForm"] = "MDObjectRef";
-	This["DefaultListForm"] = "MDObjectRef";
-	This["DefaultChoiceForm"] = "MDObjectRef";
-	This["AuxiliaryObjectForm"] = "MDObjectRef";
-	This["AuxiliaryListForm"] = "MDObjectRef";
-	This["AuxiliaryChoiceForm"] = "MDObjectRef";
-	This["BasedOn"] = "MDListType";
-	This["DependenceOnCalculationTypes"] = "String"; // Enums.ChartOfCalculationTypesBaseUse;
-	This["BaseCalculationTypes"] = "MDListType";
-	This["ActionPeriodUse"] = "String"; // Enums.Boolean;
-	This["StandardAttributes"] = "StandardAttributes";
-	This["Characteristics"] = "Characteristics";
-	This["StandardTabularSections"] = "StandardTabularSections";
-	This["PredefinedDataUpdate"] = "String"; // Enums.PredefinedDataUpdate;
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["DataLockFields"] = "FieldList";
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["ObjectPresentation"] = "LocalStringType";
-	This["ExtendedObjectPresentation"] = "LocalStringType";
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["CodeLength"] = "Decimal";
+	Этот["DescriptionLength"] = "Decimal";
+	Этот["CodeType"] = "String"; // Enums.ChartOfCalculationTypesCodeType;
+	Этот["CodeAllowedLength"] = "String"; // Enums.AllowedLength;
+	Этот["DefaultPresentation"] = "String"; // Enums.CalculationTypeMainPresentation;
+	Этот["EditType"] = "String"; // Enums.EditType;
+	Этот["QuickChoice"] = "String"; // Enums.Boolean;
+	Этот["ChoiceMode"] = "String"; // Enums.ChoiceMode;
+	Этот["InputByString"] = "FieldList";
+	Этот["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
+	Этот["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
+	Этот["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Этот["DefaultObjectForm"] = "MDObjectRef";
+	Этот["DefaultListForm"] = "MDObjectRef";
+	Этот["DefaultChoiceForm"] = "MDObjectRef";
+	Этот["AuxiliaryObjectForm"] = "MDObjectRef";
+	Этот["AuxiliaryListForm"] = "MDObjectRef";
+	Этот["AuxiliaryChoiceForm"] = "MDObjectRef";
+	Этот["BasedOn"] = "MDListType";
+	Этот["DependenceOnCalculationTypes"] = "String"; // Enums.ChartOfCalculationTypesBaseUse;
+	Этот["BaseCalculationTypes"] = "MDListType";
+	Этот["ActionPeriodUse"] = "String"; // Enums.Boolean;
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["Characteristics"] = "Characteristics";
+	Этот["StandardTabularSections"] = "StandardTabularSections";
+	Этот["PredefinedDataUpdate"] = "String"; // Enums.PredefinedDataUpdate;
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["DataLockFields"] = "FieldList";
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["ObjectPresentation"] = "LocalStringType";
+	Этот["ExtendedObjectPresentation"] = "LocalStringType";
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // ChartOfCalculationTypesProperties()
 
 Функция ChartOfCalculationTypesChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Attribute"] = "Attribute";
-	Items["TabularSection"] = "TabularSection";
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Attribute"] = "Attribute";
+	Элементы["TabularSection"] = "TabularSection";
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // ChartOfCalculationTypesChildObjects()
 
 #КонецОбласти // ChartOfCalculationTypes
@@ -1420,73 +1420,73 @@
 #Область ChartOfCharacteristicTypes
 
 Функция ChartOfCharacteristicTypes()
-	This = Структура(MDObjectBase());
-	This["Properties"] = ChartOfCharacteristicTypesProperties();
-	This["ChildObjects"] = ChartOfCharacteristicTypesChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = ChartOfCharacteristicTypesProperties();
+	Этот["ChildObjects"] = ChartOfCharacteristicTypesChildObjects();
+	Возврат Этот;
 КонецФункции // ChartOfCharacteristicTypes()
 
 Функция ChartOfCharacteristicTypesProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["CharacteristicExtValues"] = "MDObjectRef";
-	This["Type"] = "TypeDescription";
-	This["Hierarchical"] = "String"; // Enums.Boolean;
-	This["FoldersOnTop"] = "String"; // Enums.Boolean;
-	This["CodeLength"] = "Decimal";
-	This["CodeAllowedLength"] = "String"; // Enums.AllowedLength;
-	This["DescriptionLength"] = "Decimal";
-	This["CodeSeries"] = "String"; // Enums.CharacteristicKindCodesSeries;
-	This["CheckUnique"] = "String"; // Enums.Boolean;
-	This["Autonumbering"] = "String"; // Enums.Boolean;
-	This["DefaultPresentation"] = "String"; // Enums.CharacteristicTypeMainPresentation;
-	This["StandardAttributes"] = "StandardAttributes";
-	This["Characteristics"] = "Characteristics";
-	This["PredefinedDataUpdate"] = "String"; // Enums.PredefinedDataUpdate;
-	This["EditType"] = "String"; // Enums.EditType;
-	This["QuickChoice"] = "String"; // Enums.Boolean;
-	This["ChoiceMode"] = "String"; // Enums.ChoiceMode;
-	This["InputByString"] = "FieldList";
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
-	This["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
-	This["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	This["DefaultObjectForm"] = "MDObjectRef";
-	This["DefaultFolderForm"] = "MDObjectRef";
-	This["DefaultListForm"] = "MDObjectRef";
-	This["DefaultChoiceForm"] = "MDObjectRef";
-	This["DefaultFolderChoiceForm"] = "MDObjectRef";
-	This["AuxiliaryObjectForm"] = "MDObjectRef";
-	This["AuxiliaryFolderForm"] = "MDObjectRef";
-	This["AuxiliaryListForm"] = "MDObjectRef";
-	This["AuxiliaryChoiceForm"] = "MDObjectRef";
-	This["AuxiliaryFolderChoiceForm"] = "MDObjectRef";
-	This["BasedOn"] = "MDListType";
-	This["DataLockFields"] = "FieldList";
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["ObjectPresentation"] = "LocalStringType";
-	This["ExtendedObjectPresentation"] = "LocalStringType";
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["CharacteristicExtValues"] = "MDObjectRef";
+	Этот["Type"] = "TypeDescription";
+	Этот["Hierarchical"] = "String"; // Enums.Boolean;
+	Этот["FoldersOnTop"] = "String"; // Enums.Boolean;
+	Этот["CodeLength"] = "Decimal";
+	Этот["CodeAllowedLength"] = "String"; // Enums.AllowedLength;
+	Этот["DescriptionLength"] = "Decimal";
+	Этот["CodeSeries"] = "String"; // Enums.CharacteristicKindCodesSeries;
+	Этот["CheckUnique"] = "String"; // Enums.Boolean;
+	Этот["Autonumbering"] = "String"; // Enums.Boolean;
+	Этот["DefaultPresentation"] = "String"; // Enums.CharacteristicTypeMainPresentation;
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["Characteristics"] = "Characteristics";
+	Этот["PredefinedDataUpdate"] = "String"; // Enums.PredefinedDataUpdate;
+	Этот["EditType"] = "String"; // Enums.EditType;
+	Этот["QuickChoice"] = "String"; // Enums.Boolean;
+	Этот["ChoiceMode"] = "String"; // Enums.ChoiceMode;
+	Этот["InputByString"] = "FieldList";
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
+	Этот["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
+	Этот["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Этот["DefaultObjectForm"] = "MDObjectRef";
+	Этот["DefaultFolderForm"] = "MDObjectRef";
+	Этот["DefaultListForm"] = "MDObjectRef";
+	Этот["DefaultChoiceForm"] = "MDObjectRef";
+	Этот["DefaultFolderChoiceForm"] = "MDObjectRef";
+	Этот["AuxiliaryObjectForm"] = "MDObjectRef";
+	Этот["AuxiliaryFolderForm"] = "MDObjectRef";
+	Этот["AuxiliaryListForm"] = "MDObjectRef";
+	Этот["AuxiliaryChoiceForm"] = "MDObjectRef";
+	Этот["AuxiliaryFolderChoiceForm"] = "MDObjectRef";
+	Этот["BasedOn"] = "MDListType";
+	Этот["DataLockFields"] = "FieldList";
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["ObjectPresentation"] = "LocalStringType";
+	Этот["ExtendedObjectPresentation"] = "LocalStringType";
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // ChartOfCharacteristicTypesProperties()
 
 Функция ChartOfCharacteristicTypesChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Attribute"] = "Attribute";
-	Items["TabularSection"] = "TabularSection";
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Attribute"] = "Attribute";
+	Элементы["TabularSection"] = "TabularSection";
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // ChartOfCharacteristicTypesChildObjects()
 
 #КонецОбласти // ChartOfCharacteristicTypes
@@ -1494,29 +1494,29 @@
 #Область CommandGroup
 
 Функция CommandGroup()
-	This = Структура(MDObjectBase());
-	This["Properties"] = CommandGroupProperties();
-	This["ChildObjects"] = CommandGroupChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = CommandGroupProperties();
+	Этот["ChildObjects"] = CommandGroupChildObjects();
+	Возврат Этот;
 КонецФункции // CommandGroup()
 
 Функция CommandGroupProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Representation"] = "String"; // Enums.ButtonRepresentation;
-	This["ToolTip"] = "LocalStringType";
-	//This["Picture"]         = ;
-	This["Category"] = "String"; // Enums.CommandGroupCategory;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Representation"] = "String"; // Enums.ButtonRepresentation;
+	Этот["ToolTip"] = "LocalStringType";
+	//Этот["Picture"]         = ;
+	Этот["Category"] = "String"; // Enums.CommandGroupCategory;
+	Возврат Этот;
 КонецФункции // CommandGroupProperties()
 
 Функция CommandGroupChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // CommandGroupChildObjects()
 
 #КонецОбласти // CommandGroup
@@ -1524,60 +1524,60 @@
 #Область CommonAttribute
 
 Функция CommonAttribute()
-	This = Структура(MDObjectBase());
-	This["Properties"] = CommonAttributeProperties();
-	This["ChildObjects"] = CommonAttributeChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = CommonAttributeProperties();
+	Этот["ChildObjects"] = CommonAttributeChildObjects();
+	Возврат Этот;
 КонецФункции // CommonAttribute()
 
 Функция CommonAttributeProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Type"] = "TypeDescription";
-	This["PasswordMode"] = "String"; // Enums.Boolean;
-	This["Format"] = "LocalStringType";
-	This["EditFormat"] = "LocalStringType";
-	This["ToolTip"] = "LocalStringType";
-	This["MarkNegatives"] = "String"; // Enums.Boolean;
-	This["Mask"] = "String";
-	This["MultiLine"] = "String"; // Enums.Boolean;
-	This["ExtendedEdit"] = "String"; // Enums.Boolean;
-	//This["MinValue"]                           = ;
-	//This["MaxValue"]                           = ;
-	This["FillFromFillingValue"] = "String"; // Enums.Boolean;
-	//This["FillValue"]                          = ;
-	This["FillChecking"] = "String"; // Enums.FillChecking;
-	This["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
-	This["ChoiceParameterLinks"] = "ChoiceParameterLinks";
-	//This["ChoiceParameters"]                   = ;
-	This["QuickChoice"] = "String"; // Enums.UseQuickChoice;
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["ChoiceForm"] = "MDObjectRef";
-	This["LinkByType"] = "TypeLink";
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	//This["Content"]                            = CommonAttributeContent();
-	This["AutoUse"] = "String"; // Enums.CommonAttributeAutoUse;
-	This["DataSeparation"] = "String"; // Enums.CommonAttributeDataSeparation;
-	This["SeparatedDataUse"] = "String"; // Enums.CommonAttributeSeparatedDataUse;
-	This["DataSeparationValue"] = "MDObjectRef";
-	This["DataSeparationUse"] = "MDObjectRef";
-	This["ConditionalSeparation"] = "MDObjectRef";
-	This["UsersSeparation"] = "String"; // Enums.CommonAttributeUsersSeparation;
-	This["AuthenticationSeparation"] = "String"; // Enums.CommonAttributeAuthenticationSeparation;
-	This["ConfigurationExtensionsSeparation"] = "String"; // Enums.CommonAttributeConfigurationExtensionsSeparation;
-	This["Indexing"] = "String"; // Enums.Indexing;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["DataHistory"] = "String"; // Enums.DataHistoryUse;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Type"] = "TypeDescription";
+	Этот["PasswordMode"] = "String"; // Enums.Boolean;
+	Этот["Format"] = "LocalStringType";
+	Этот["EditFormat"] = "LocalStringType";
+	Этот["ToolTip"] = "LocalStringType";
+	Этот["MarkNegatives"] = "String"; // Enums.Boolean;
+	Этот["Mask"] = "String";
+	Этот["MultiLine"] = "String"; // Enums.Boolean;
+	Этот["ExtendedEdit"] = "String"; // Enums.Boolean;
+	//Этот["MinValue"]                           = ;
+	//Этот["MaxValue"]                           = ;
+	Этот["FillFromFillingValue"] = "String"; // Enums.Boolean;
+	//Этот["FillValue"]                          = ;
+	Этот["FillChecking"] = "String"; // Enums.FillChecking;
+	Этот["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
+	Этот["ChoiceParameterLinks"] = "ChoiceParameterLinks";
+	//Этот["ChoiceParameters"]                   = ;
+	Этот["QuickChoice"] = "String"; // Enums.UseQuickChoice;
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["ChoiceForm"] = "MDObjectRef";
+	Этот["LinkByType"] = "TypeLink";
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	//Этот["Content"]                            = CommonAttributeContent();
+	Этот["AutoUse"] = "String"; // Enums.CommonAttributeAutoUse;
+	Этот["DataSeparation"] = "String"; // Enums.CommonAttributeDataSeparation;
+	Этот["SeparatedDataUse"] = "String"; // Enums.CommonAttributeSeparatedDataUse;
+	Этот["DataSeparationValue"] = "MDObjectRef";
+	Этот["DataSeparationUse"] = "MDObjectRef";
+	Этот["ConditionalSeparation"] = "MDObjectRef";
+	Этот["UsersSeparation"] = "String"; // Enums.CommonAttributeUsersSeparation;
+	Этот["AuthenticationSeparation"] = "String"; // Enums.CommonAttributeAuthenticationSeparation;
+	Этот["ConfigurationExtensionsSeparation"] = "String"; // Enums.CommonAttributeConfigurationExtensionsSeparation;
+	Этот["Indexing"] = "String"; // Enums.Indexing;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["DataHistory"] = "String"; // Enums.DataHistoryUse;
+	Возврат Этот;
 КонецФункции // CommonAttributeProperties()
 
 Функция CommonAttributeChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // CommonAttributeChildObjects()
 
 #КонецОбласти // CommonAttribute
@@ -1585,34 +1585,34 @@
 #Область CommonCommand
 
 Функция CommonCommand()
-	This = Структура(MDObjectBase());
-	This["Properties"] = CommonCommandProperties();
-	This["ChildObjects"] = CommonCommandChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = CommonCommandProperties();
+	Этот["ChildObjects"] = CommonCommandChildObjects();
+	Возврат Этот;
 КонецФункции // CommonCommand()
 
 Функция CommonCommandProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	//This["Group"]                  = IncludeInCommandCategoriesType;
-	This["Representation"] = "String"; // Enums.ButtonRepresentation;
-	This["ToolTip"] = "LocalStringType";
-	//This["Picture"]                = ;
-	//This["Shortcut"]               = ;
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["CommandParameterType"] = "TypeDescription";
-	This["ParameterUseMode"] = "String"; // Enums.CommandParameterUseMode;
-	This["ModifiesData"] = "String"; // Enums.Boolean;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	//Этот["Group"]                  = IncludeInCommandCategoriesType;
+	Этот["Representation"] = "String"; // Enums.ButtonRepresentation;
+	Этот["ToolTip"] = "LocalStringType";
+	//Этот["Picture"]                = ;
+	//Этот["Shortcut"]               = ;
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["CommandParameterType"] = "TypeDescription";
+	Этот["ParameterUseMode"] = "String"; // Enums.CommandParameterUseMode;
+	Этот["ModifiesData"] = "String"; // Enums.Boolean;
+	Возврат Этот;
 КонецФункции // CommonCommandProperties()
 
 Функция CommonCommandChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // CommonCommandChildObjects()
 
 #КонецОбласти // CommonCommand
@@ -1620,31 +1620,31 @@
 #Область CommonForm
 
 Функция CommonForm()
-	This = Структура(MDObjectBase());
-	This["Properties"] = CommonFormProperties();
-	This["ChildObjects"] = CommonFormChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = CommonFormProperties();
+	Этот["ChildObjects"] = CommonFormChildObjects();
+	Возврат Этот;
 КонецФункции // CommonForm()
 
 Функция CommonFormProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["FormType"] = "String"; // Enums.FormType;
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	//This["UsePurposes"]            = "FixedArray";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["ExtendedPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["FormType"] = "String"; // Enums.FormType;
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	//Этот["UsePurposes"]            = "FixedArray";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["ExtendedPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // CommonFormProperties()
 
 Функция CommonFormChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // CommonFormChildObjects()
 
 #КонецОбласти // CommonForm
@@ -1652,34 +1652,34 @@
 #Область CommonModule
 
 Функция CommonModule()
-	This = Структура(MDObjectBase());
-	This["Properties"] = CommonModuleProperties();
-	This["ChildObjects"] = CommonModuleChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = CommonModuleProperties();
+	Этот["ChildObjects"] = CommonModuleChildObjects();
+	Возврат Этот;
 КонецФункции // CommonModule()
 
 Функция CommonModuleProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Global"] = "String"; // Enums.Boolean;
-	This["ClientManagedApplication"] = "String"; // Enums.Boolean;
-	This["Server"] = "String"; // Enums.Boolean;
-	This["ExternalConnection"] = "String"; // Enums.Boolean;
-	This["ClientOrdinaryApplication"] = "String"; // Enums.Boolean;
-	This["Client"] = "String"; // Enums.Boolean;
-	This["ServerCall"] = "String"; // Enums.Boolean;
-	This["Privileged"] = "String"; // Enums.Boolean;
-	This["ReturnValuesReuse"] = "String"; // Enums.ReturnValuesReuse;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Global"] = "String"; // Enums.Boolean;
+	Этот["ClientManagedApplication"] = "String"; // Enums.Boolean;
+	Этот["Server"] = "String"; // Enums.Boolean;
+	Этот["ExternalConnection"] = "String"; // Enums.Boolean;
+	Этот["ClientOrdinaryApplication"] = "String"; // Enums.Boolean;
+	Этот["Client"] = "String"; // Enums.Boolean;
+	Этот["ServerCall"] = "String"; // Enums.Boolean;
+	Этот["Privileged"] = "String"; // Enums.Boolean;
+	Этот["ReturnValuesReuse"] = "String"; // Enums.ReturnValuesReuse;
+	Возврат Этот;
 КонецФункции // CommonModuleProperties()
 
 Функция CommonModuleChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // CommonModuleChildObjects()
 
 #КонецОбласти // CommonModule
@@ -1687,25 +1687,25 @@
 #Область CommonPicture
 
 Функция CommonPicture()
-	This = Структура(MDObjectBase());
-	This["Properties"] = CommonPictureProperties();
-	This["ChildObjects"] = CommonPictureChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = CommonPictureProperties();
+	Этот["ChildObjects"] = CommonPictureChildObjects();
+	Возврат Этот;
 КонецФункции // CommonPicture()
 
 Функция CommonPictureProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Возврат Этот;
 КонецФункции // CommonPictureProperties()
 
 Функция CommonPictureChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // CommonPictureChildObjects()
 
 #КонецОбласти // CommonPicture
@@ -1713,26 +1713,26 @@
 #Область CommonTemplate
 
 Функция CommonTemplate()
-	This = Структура(MDObjectBase());
-	This["Properties"] = CommonTemplateProperties();
-	This["ChildObjects"] = CommonTemplateChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = CommonTemplateProperties();
+	Этот["ChildObjects"] = CommonTemplateChildObjects();
+	Возврат Этот;
 КонецФункции // CommonTemplate()
 
 Функция CommonTemplateProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["TemplateType"] = "String"; // Enums.TemplateType;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["TemplateType"] = "String"; // Enums.TemplateType;
+	Возврат Этот;
 КонецФункции // CommonTemplateProperties()
 
 Функция CommonTemplateChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // CommonTemplateChildObjects()
 
 #КонецОбласти // CommonTemplate
@@ -1740,49 +1740,49 @@
 #Область Constant
 
 Функция Constant()
-	This = Структура(MDObjectBase());
-	This["Properties"] = ConstantProperties();
-	This["ChildObjects"] = ConstantChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = ConstantProperties();
+	Этот["ChildObjects"] = ConstantChildObjects();
+	Возврат Этот;
 КонецФункции // Constant()
 
 Функция ConstantProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Type"] = "TypeDescription";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["DefaultForm"] = "MDObjectRef";
-	This["ExtendedPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	This["PasswordMode"] = "String"; // Enums.Boolean;
-	This["Format"] = "LocalStringType";
-	This["EditFormat"] = "LocalStringType";
-	This["ToolTip"] = "LocalStringType";
-	This["MarkNegatives"] = "String"; // Enums.Boolean;
-	This["Mask"] = "String";
-	This["MultiLine"] = "String"; // Enums.Boolean;
-	This["ExtendedEdit"] = "String"; // Enums.Boolean;
-	//This["MinValue"]               = ;
-	//This["MaxValue"]               = ;
-	This["FillChecking"] = "String"; // Enums.FillChecking;
-	This["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
-	This["ChoiceParameterLinks"] = "ChoiceParameterLinks";
-	//This["ChoiceParameters"]       = ;
-	This["QuickChoice"] = "String"; // Enums.UseQuickChoice;
-	This["ChoiceForm"] = "MDObjectRef";
-	This["LinkByType"] = "TypeLink";
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Type"] = "TypeDescription";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["DefaultForm"] = "MDObjectRef";
+	Этот["ExtendedPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Этот["PasswordMode"] = "String"; // Enums.Boolean;
+	Этот["Format"] = "LocalStringType";
+	Этот["EditFormat"] = "LocalStringType";
+	Этот["ToolTip"] = "LocalStringType";
+	Этот["MarkNegatives"] = "String"; // Enums.Boolean;
+	Этот["Mask"] = "String";
+	Этот["MultiLine"] = "String"; // Enums.Boolean;
+	Этот["ExtendedEdit"] = "String"; // Enums.Boolean;
+	//Этот["MinValue"]               = ;
+	//Этот["MaxValue"]               = ;
+	Этот["FillChecking"] = "String"; // Enums.FillChecking;
+	Этот["ChoiceFoldersAndItems"] = "String"; // Enums.FoldersAndItemsUse;
+	Этот["ChoiceParameterLinks"] = "ChoiceParameterLinks";
+	//Этот["ChoiceParameters"]       = ;
+	Этот["QuickChoice"] = "String"; // Enums.UseQuickChoice;
+	Этот["ChoiceForm"] = "MDObjectRef";
+	Этот["LinkByType"] = "TypeLink";
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Возврат Этот;
 КонецФункции // ConstantProperties()
 
 Функция ConstantChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // ConstantChildObjects()
 
 #КонецОбласти // Constant
@@ -1790,35 +1790,35 @@
 #Область DataProcessor
 
 Функция DataProcessor()
-	This = Структура(MDObjectBase());
-	This["Properties"] = DataProcessorProperties();
-	This["ChildObjects"] = DataProcessorChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = DataProcessorProperties();
+	Этот["ChildObjects"] = DataProcessorChildObjects();
+	Возврат Этот;
 КонецФункции // DataProcessor()
 
 Функция DataProcessorProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["DefaultForm"] = "MDObjectRef";
-	This["AuxiliaryForm"] = "MDObjectRef";
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["ExtendedPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["DefaultForm"] = "MDObjectRef";
+	Этот["AuxiliaryForm"] = "MDObjectRef";
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["ExtendedPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // DataProcessorProperties()
 
 Функция DataProcessorChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Attribute"] = "Attribute";
-	Items["TabularSection"] = "TabularSection";
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Attribute"] = "Attribute";
+	Элементы["TabularSection"] = "TabularSection";
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // DataProcessorChildObjects()
 
 #КонецОбласти // DataProcessor
@@ -1826,37 +1826,37 @@
 #Область DocumentJournal
 
 Функция DocumentJournal()
-	This = Структура(MDObjectBase());
-	This["Properties"] = DocumentJournalProperties();
-	This["ChildObjects"] = DocumentJournalChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = DocumentJournalProperties();
+	Этот["ChildObjects"] = DocumentJournalChildObjects();
+	Возврат Этот;
 КонецФункции // DocumentJournal()
 
 Функция DocumentJournalProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["DefaultForm"] = "MDObjectRef";
-	This["AuxiliaryForm"] = "MDObjectRef";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["RegisteredDocuments"] = "MDListType";
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["StandardAttributes"] = "StandardAttributes";
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["DefaultForm"] = "MDObjectRef";
+	Этот["AuxiliaryForm"] = "MDObjectRef";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["RegisteredDocuments"] = "MDListType";
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // DocumentJournalProperties()
 
 Функция DocumentJournalChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Column"] = Column();
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Column"] = Column();
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // DocumentJournalChildObjects()
 
 #КонецОбласти // DocumentJournal
@@ -1864,30 +1864,30 @@
 #Область DocumentNumerator
 
 Функция DocumentNumerator()
-	This = Структура(MDObjectBase());
-	This["Properties"] = DocumentNumeratorProperties();
-	This["ChildObjects"] = DocumentNumeratorChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = DocumentNumeratorProperties();
+	Этот["ChildObjects"] = DocumentNumeratorChildObjects();
+	Возврат Этот;
 КонецФункции // DocumentNumerator()
 
 Функция DocumentNumeratorProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["NumberType"] = "String"; // Enums.DocumentNumberType;
-	This["NumberLength"] = "Decimal";
-	This["NumberAllowedLength"] = "String"; // Enums.AllowedLength;
-	This["NumberPeriodicity"] = "String"; // Enums.DocumentNumberPeriodicity;
-	This["CheckUnique"] = "String"; // Enums.Boolean;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["NumberType"] = "String"; // Enums.DocumentNumberType;
+	Этот["NumberLength"] = "Decimal";
+	Этот["NumberAllowedLength"] = "String"; // Enums.AllowedLength;
+	Этот["NumberPeriodicity"] = "String"; // Enums.DocumentNumberPeriodicity;
+	Этот["CheckUnique"] = "String"; // Enums.Boolean;
+	Возврат Этот;
 КонецФункции // DocumentNumeratorProperties()
 
 Функция DocumentNumeratorChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // DocumentNumeratorChildObjects()
 
 #КонецОбласти // DocumentNumerator
@@ -1895,70 +1895,70 @@
 #Область Document
 
 Функция Document()
-	This = Структура(MDObjectBase());
-	This["Properties"] = DocumentProperties();
-	This["ChildObjects"] = DocumentChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = DocumentProperties();
+	Этот["ChildObjects"] = DocumentChildObjects();
+	Возврат Этот;
 КонецФункции // Document()
 
 Функция DocumentProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["Numerator"] = "MDObjectRef";
-	This["NumberType"] = "String"; // Enums.DocumentNumberType;
-	This["NumberLength"] = "Decimal";
-	This["NumberAllowedLength"] = "String"; // Enums.AllowedLength;
-	This["NumberPeriodicity"] = "String"; // Enums.DocumentNumberPeriodicity;
-	This["CheckUnique"] = "String"; // Enums.Boolean;
-	This["Autonumbering"] = "String"; // Enums.Boolean;
-	This["StandardAttributes"] = "StandardAttributes";
-	This["Characteristics"] = "Characteristics";
-	This["BasedOn"] = "MDListType";
-	This["InputByString"] = "FieldList";
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
-	This["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
-	This["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
-	This["DefaultObjectForm"] = "MDObjectRef";
-	This["DefaultListForm"] = "MDObjectRef";
-	This["DefaultChoiceForm"] = "MDObjectRef";
-	This["AuxiliaryObjectForm"] = "MDObjectRef";
-	This["AuxiliaryListForm"] = "MDObjectRef";
-	This["AuxiliaryChoiceForm"] = "MDObjectRef";
-	This["Posting"] = "String"; // Enums.Posting;
-	This["RealTimePosting"] = "String"; // Enums.RealTimePosting;
-	This["RegisterRecordsDeletion"] = "String"; // Enums.RegisterRecordsDeletion;
-	This["RegisterRecordsWritingOnPost"] = "String"; // Enums.RegisterRecordsWritingOnPost;
-	This["SequenceFilling"] = "String"; // Enums.SequenceFilling;
-	This["RegisterRecords"] = "MDListType";
-	This["PostInPrivilegedMode"] = "String"; // Enums.Boolean;
-	This["UnpostInPrivilegedMode"] = "String"; // Enums.Boolean;
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["DataLockFields"] = "FieldList";
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["ObjectPresentation"] = "LocalStringType";
-	This["ExtendedObjectPresentation"] = "LocalStringType";
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	This["DataHistory"] = "String"; // Enums.DataHistoryUse;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["Numerator"] = "MDObjectRef";
+	Этот["NumberType"] = "String"; // Enums.DocumentNumberType;
+	Этот["NumberLength"] = "Decimal";
+	Этот["NumberAllowedLength"] = "String"; // Enums.AllowedLength;
+	Этот["NumberPeriodicity"] = "String"; // Enums.DocumentNumberPeriodicity;
+	Этот["CheckUnique"] = "String"; // Enums.Boolean;
+	Этот["Autonumbering"] = "String"; // Enums.Boolean;
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["Characteristics"] = "Characteristics";
+	Этот["BasedOn"] = "MDListType";
+	Этот["InputByString"] = "FieldList";
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
+	Этот["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
+	Этот["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
+	Этот["DefaultObjectForm"] = "MDObjectRef";
+	Этот["DefaultListForm"] = "MDObjectRef";
+	Этот["DefaultChoiceForm"] = "MDObjectRef";
+	Этот["AuxiliaryObjectForm"] = "MDObjectRef";
+	Этот["AuxiliaryListForm"] = "MDObjectRef";
+	Этот["AuxiliaryChoiceForm"] = "MDObjectRef";
+	Этот["Posting"] = "String"; // Enums.Posting;
+	Этот["RealTimePosting"] = "String"; // Enums.RealTimePosting;
+	Этот["RegisterRecordsDeletion"] = "String"; // Enums.RegisterRecordsDeletion;
+	Этот["RegisterRecordsWritingOnPost"] = "String"; // Enums.RegisterRecordsWritingOnPost;
+	Этот["SequenceFilling"] = "String"; // Enums.SequenceFilling;
+	Этот["RegisterRecords"] = "MDListType";
+	Этот["PostInPrivilegedMode"] = "String"; // Enums.Boolean;
+	Этот["UnpostInPrivilegedMode"] = "String"; // Enums.Boolean;
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["DataLockFields"] = "FieldList";
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["ObjectPresentation"] = "LocalStringType";
+	Этот["ExtendedObjectPresentation"] = "LocalStringType";
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Этот["DataHistory"] = "String"; // Enums.DataHistoryUse;
+	Возврат Этот;
 КонецФункции // DocumentProperties()
 
 Функция DocumentChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Attribute"] = "Attribute";
-	Items["Form"] = "String";
-	Items["TabularSection"] = "TabularSection";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Attribute"] = "Attribute";
+	Элементы["Form"] = "String";
+	Элементы["TabularSection"] = "TabularSection";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // DocumentChildObjects()
 
 #КонецОбласти // Document
@@ -1966,41 +1966,41 @@
 #Область Enum
 
 Функция Enum()
-	This = Структура(MDObjectBase());
-	This["Properties"] = EnumProperties();
-	This["ChildObjects"] = EnumChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = EnumProperties();
+	Этот["ChildObjects"] = EnumChildObjects();
+	Возврат Этот;
 КонецФункции // Enum()
 
 Функция EnumProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["StandardAttributes"] = "StandardAttributes";
-	This["Characteristics"] = "Characteristics";
-	This["QuickChoice"] = "String"; // Enums.Boolean;
-	This["ChoiceMode"] = "String"; // Enums.ChoiceMode;
-	This["DefaultListForm"] = "MDObjectRef";
-	This["DefaultChoiceForm"] = "MDObjectRef";
-	This["AuxiliaryListForm"] = "MDObjectRef";
-	This["AuxiliaryChoiceForm"] = "MDObjectRef";
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["Characteristics"] = "Characteristics";
+	Этот["QuickChoice"] = "String"; // Enums.Boolean;
+	Этот["ChoiceMode"] = "String"; // Enums.ChoiceMode;
+	Этот["DefaultListForm"] = "MDObjectRef";
+	Этот["DefaultChoiceForm"] = "MDObjectRef";
+	Этот["AuxiliaryListForm"] = "MDObjectRef";
+	Этот["AuxiliaryChoiceForm"] = "MDObjectRef";
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Возврат Этот;
 КонецФункции // EnumProperties()
 
 Функция EnumChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["EnumValue"] = EnumValue();
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["EnumValue"] = EnumValue();
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // EnumChildObjects()
 
 #КонецОбласти // Enum
@@ -2008,28 +2008,28 @@
 #Область EventSubscription
 
 Функция EventSubscription()
-	This = Структура(MDObjectBase());
-	This["Properties"] = EventSubscriptionProperties();
-	This["ChildObjects"] = EventSubscriptionChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = EventSubscriptionProperties();
+	Этот["ChildObjects"] = EventSubscriptionChildObjects();
+	Возврат Этот;
 КонецФункции // EventSubscription()
 
 Функция EventSubscriptionProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Source"] = "TypeDescription";
-	//This["Event"]    = "AliasedStringType";
-	This["Handler"] = "MDMethodRef";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Source"] = "TypeDescription";
+	//Этот["Event"]    = "AliasedStringType";
+	Этот["Handler"] = "MDMethodRef";
+	Возврат Этот;
 КонецФункции // EventSubscriptionProperties()
 
 Функция EventSubscriptionChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // EventSubscriptionChildObjects()
 
 #КонецОбласти // EventSubscription
@@ -2037,62 +2037,62 @@
 #Область ExchangePlan
 
 Функция ExchangePlan()
-	This = Структура(MDObjectBase());
-	This["Properties"] = ExchangePlanProperties();
-	This["ChildObjects"] = ExchangePlanChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = ExchangePlanProperties();
+	Этот["ChildObjects"] = ExchangePlanChildObjects();
+	Возврат Этот;
 КонецФункции // ExchangePlan()
 
 Функция ExchangePlanProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["CodeLength"] = "Decimal";
-	This["CodeAllowedLength"] = "String"; // Enums.AllowedLength;
-	This["DescriptionLength"] = "Decimal";
-	This["DefaultPresentation"] = "String"; // Enums.DataExchangeMainPresentation;
-	This["EditType"] = "String"; // Enums.EditType;
-	This["QuickChoice"] = "String"; // Enums.Boolean;
-	This["ChoiceMode"] = "String"; // Enums.ChoiceMode;
-	This["InputByString"] = "FieldList";
-	This["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
-	This["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
-	This["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
-	This["DefaultObjectForm"] = "MDObjectRef";
-	This["DefaultListForm"] = "MDObjectRef";
-	This["DefaultChoiceForm"] = "MDObjectRef";
-	This["AuxiliaryObjectForm"] = "MDObjectRef";
-	This["AuxiliaryListForm"] = "MDObjectRef";
-	This["AuxiliaryChoiceForm"] = "MDObjectRef";
-	This["StandardAttributes"] = "StandardAttributes";
-	This["Characteristics"] = "Characteristics";
-	This["BasedOn"] = "MDListType";
-	This["DistributedInfoBase"] = "String"; // Enums.Boolean;
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["DataLockFields"] = "FieldList";
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["ObjectPresentation"] = "LocalStringType";
-	This["ExtendedObjectPresentation"] = "LocalStringType";
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["CodeLength"] = "Decimal";
+	Этот["CodeAllowedLength"] = "String"; // Enums.AllowedLength;
+	Этот["DescriptionLength"] = "Decimal";
+	Этот["DefaultPresentation"] = "String"; // Enums.DataExchangeMainPresentation;
+	Этот["EditType"] = "String"; // Enums.EditType;
+	Этот["QuickChoice"] = "String"; // Enums.Boolean;
+	Этот["ChoiceMode"] = "String"; // Enums.ChoiceMode;
+	Этот["InputByString"] = "FieldList";
+	Этот["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
+	Этот["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
+	Этот["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
+	Этот["DefaultObjectForm"] = "MDObjectRef";
+	Этот["DefaultListForm"] = "MDObjectRef";
+	Этот["DefaultChoiceForm"] = "MDObjectRef";
+	Этот["AuxiliaryObjectForm"] = "MDObjectRef";
+	Этот["AuxiliaryListForm"] = "MDObjectRef";
+	Этот["AuxiliaryChoiceForm"] = "MDObjectRef";
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["Characteristics"] = "Characteristics";
+	Этот["BasedOn"] = "MDListType";
+	Этот["DistributedInfoBase"] = "String"; // Enums.Boolean;
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["DataLockFields"] = "FieldList";
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["ObjectPresentation"] = "LocalStringType";
+	Этот["ExtendedObjectPresentation"] = "LocalStringType";
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // ExchangePlanProperties()
 
 Функция ExchangePlanChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Attribute"] = "Attribute";
-	Items["TabularSection"] = "TabularSection";
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Attribute"] = "Attribute";
+	Элементы["TabularSection"] = "TabularSection";
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // ExchangePlanChildObjects()
 
 #КонецОбласти // ExchangePlan
@@ -2100,34 +2100,34 @@
 #Область FilterCriterion
 
 Функция FilterCriterion()
-	This = Структура(MDObjectBase());
-	This["Properties"] = FilterCriterionProperties();
-	This["ChildObjects"] = FilterCriterionChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = FilterCriterionProperties();
+	Этот["ChildObjects"] = FilterCriterionChildObjects();
+	Возврат Этот;
 КонецФункции // FilterCriterion()
 
 Функция FilterCriterionProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Type"] = "TypeDescription";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["Content"] = "MDListType";
-	This["DefaultForm"] = "MDObjectRef";
-	This["AuxiliaryForm"] = "MDObjectRef";
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Type"] = "TypeDescription";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["Content"] = "MDListType";
+	Этот["DefaultForm"] = "MDObjectRef";
+	Этот["AuxiliaryForm"] = "MDObjectRef";
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // FilterCriterionProperties()
 
 Функция FilterCriterionChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Form"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Form"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // FilterCriterionChildObjects()
 
 #КонецОбласти // FilterCriterion
@@ -2135,28 +2135,28 @@
 #Область FunctionalOption
 
 Функция FunctionalOption()
-	This = Структура(MDObjectBase());
-	This["Properties"] = FunctionalOptionProperties();
-	This["ChildObjects"] = FunctionalOptionChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = FunctionalOptionProperties();
+	Этот["ChildObjects"] = FunctionalOptionChildObjects();
+	Возврат Этот;
 КонецФункции // FunctionalOption()
 
 Функция FunctionalOptionProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Location"] = "MDObjectRef";
-	This["PrivilegedGetMode"] = "String"; // Enums.Boolean;
-	//This["Content"]            = FuncOptionContentType();
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Location"] = "MDObjectRef";
+	Этот["PrivilegedGetMode"] = "String"; // Enums.Boolean;
+	//Этот["Content"]            = FuncOptionContentType();
+	Возврат Этот;
 КонецФункции // FunctionalOptionProperties()
 
 Функция FunctionalOptionChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // FunctionalOptionChildObjects()
 
 #КонецОбласти // FunctionalOption
@@ -2164,26 +2164,26 @@
 #Область FunctionalOptionsParameter
 
 Функция FunctionalOptionsParameter()
-	This = Структура(MDObjectBase());
-	This["Properties"] = FunctionalOptionsParameterProperties();
-	This["ChildObjects"] = FunctionalOptionsParameterChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = FunctionalOptionsParameterProperties();
+	Этот["ChildObjects"] = FunctionalOptionsParameterChildObjects();
+	Возврат Этот;
 КонецФункции // FunctionalOptionsParameter()
 
 Функция FunctionalOptionsParameterProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Use"] = "MDListType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Use"] = "MDListType";
+	Возврат Этот;
 КонецФункции // FunctionalOptionsParameterProperties()
 
 Функция FunctionalOptionsParameterChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // FunctionalOptionsParameterChildObjects()
 
 #КонецОбласти // FunctionalOptionsParameter
@@ -2191,28 +2191,28 @@
 #Область HTTPService
 
 Функция HTTPService()
-	This = Структура(MDObjectBase());
-	This["Properties"] = HTTPServiceProperties();
-	This["ChildObjects"] = HTTPServiceChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = HTTPServiceProperties();
+	Этот["ChildObjects"] = HTTPServiceChildObjects();
+	Возврат Этот;
 КонецФункции // HTTPService()
 
 Функция HTTPServiceProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["RootURL"] = "String";
-	This["ReuseSessions"] = "String"; // Enums.SessionReuseMode;
-	This["SessionMaxAge"] = "Decimal";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["RootURL"] = "String";
+	Этот["ReuseSessions"] = "String"; // Enums.SessionReuseMode;
+	Этот["SessionMaxAge"] = "Decimal";
+	Возврат Этот;
 КонецФункции // HTTPServiceProperties()
 
 Функция HTTPServiceChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	//Items["URLTemplate"] = ;
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	//Элементы["URLTemplate"] = ;
+	Возврат Этот;
 КонецФункции // HTTPServiceChildObjects()
 
 #КонецОбласти // HTTPService
@@ -2220,51 +2220,51 @@
 #Область InformationRegister
 
 Функция InformationRegister()
-	This = Структура(MDObjectBase());
-	This["Properties"] = InformationRegisterProperties();
-	This["ChildObjects"] = InformationRegisterChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = InformationRegisterProperties();
+	Этот["ChildObjects"] = InformationRegisterChildObjects();
+	Возврат Этот;
 КонецФункции // InformationRegister()
 
 Функция InformationRegisterProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["EditType"] = "String"; // Enums.EditType;
-	This["DefaultRecordForm"] = "MDObjectRef";
-	This["DefaultListForm"] = "MDObjectRef";
-	This["AuxiliaryRecordForm"] = "MDObjectRef";
-	This["AuxiliaryListForm"] = "MDObjectRef";
-	This["StandardAttributes"] = "StandardAttributes";
-	This["InformationRegisterPeriodicity"] = "String"; // Enums.InformationRegisterPeriodicity;
-	This["WriteMode"] = "String"; // Enums.RegisterWriteMode;
-	This["MainFilterOnPeriod"] = "String"; // Enums.Boolean;
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["EnableTotalsSliceFirst"] = "String"; // Enums.Boolean;
-	This["EnableTotalsSliceLast"] = "String"; // Enums.Boolean;
-	This["RecordPresentation"] = "LocalStringType";
-	This["ExtendedRecordPresentation"] = "LocalStringType";
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	This["DataHistory"] = "String"; // Enums.DataHistoryUse;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["EditType"] = "String"; // Enums.EditType;
+	Этот["DefaultRecordForm"] = "MDObjectRef";
+	Этот["DefaultListForm"] = "MDObjectRef";
+	Этот["AuxiliaryRecordForm"] = "MDObjectRef";
+	Этот["AuxiliaryListForm"] = "MDObjectRef";
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["InformationRegisterPeriodicity"] = "String"; // Enums.InformationRegisterPeriodicity;
+	Этот["WriteMode"] = "String"; // Enums.RegisterWriteMode;
+	Этот["MainFilterOnPeriod"] = "String"; // Enums.Boolean;
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["EnableTotalsSliceFirst"] = "String"; // Enums.Boolean;
+	Этот["EnableTotalsSliceLast"] = "String"; // Enums.Boolean;
+	Этот["RecordPresentation"] = "LocalStringType";
+	Этот["ExtendedRecordPresentation"] = "LocalStringType";
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Этот["DataHistory"] = "String"; // Enums.DataHistoryUse;
+	Возврат Этот;
 КонецФункции // InformationRegisterProperties()
 
 Функция InformationRegisterChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Resource"] = "Resource";
-	Items["Attribute"] = "Attribute";
-	Items["Dimension"] = "Dimension";
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Resource"] = "Resource";
+	Элементы["Attribute"] = "Attribute";
+	Элементы["Dimension"] = "Dimension";
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // InformationRegisterChildObjects()
 
 #КонецОбласти // InformationRegister
@@ -2272,41 +2272,41 @@
 #Область Report
 
 Функция Report()
-	This = Структура(MDObjectBase());
-	This["Properties"] = ReportProperties();
-	This["ChildObjects"] = ReportChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = ReportProperties();
+	Этот["ChildObjects"] = ReportChildObjects();
+	Возврат Этот;
 КонецФункции // Report()
 
 Функция ReportProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["DefaultForm"] = "MDObjectRef";
-	This["AuxiliaryForm"] = "MDObjectRef";
-	This["MainDataCompositionSchema"] = "MDObjectRef";
-	This["DefaultSettingsForm"] = "MDObjectRef";
-	This["AuxiliarySettingsForm"] = "MDObjectRef";
-	This["DefaultVariantForm"] = "MDObjectRef";
-	This["VariantsStorage"] = "MDObjectRef";
-	This["SettingsStorage"] = "MDObjectRef";
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["ExtendedPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["DefaultForm"] = "MDObjectRef";
+	Этот["AuxiliaryForm"] = "MDObjectRef";
+	Этот["MainDataCompositionSchema"] = "MDObjectRef";
+	Этот["DefaultSettingsForm"] = "MDObjectRef";
+	Этот["AuxiliarySettingsForm"] = "MDObjectRef";
+	Этот["DefaultVariantForm"] = "MDObjectRef";
+	Этот["VariantsStorage"] = "MDObjectRef";
+	Этот["SettingsStorage"] = "MDObjectRef";
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["ExtendedPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // ReportProperties()
 
 Функция ReportChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Attribute"] = "Attribute";
-	Items["TabularSection"] = "TabularSection";
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Attribute"] = "Attribute";
+	Элементы["TabularSection"] = "TabularSection";
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // ReportChildObjects()
 
 #КонецОбласти // Report
@@ -2314,25 +2314,25 @@
 #Область Role
 
 Функция Role()
-	This = Структура(MDObjectBase());
-	This["Properties"] = RoleProperties();
-	This["ChildObjects"] = RoleChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = RoleProperties();
+	Этот["ChildObjects"] = RoleChildObjects();
+	Возврат Этот;
 КонецФункции // Role()
 
 Функция RoleProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Возврат Этот;
 КонецФункции // RoleProperties()
 
 Функция RoleChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // RoleChildObjects()
 
 #КонецОбласти // Role
@@ -2340,32 +2340,32 @@
 #Область ScheduledJob
 
 Функция ScheduledJob()
-	This = Структура(MDObjectBase());
-	This["Properties"] = ScheduledJobProperties();
-	This["ChildObjects"] = ScheduledJobChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = ScheduledJobProperties();
+	Этот["ChildObjects"] = ScheduledJobChildObjects();
+	Возврат Этот;
 КонецФункции // ScheduledJob()
 
 Функция ScheduledJobProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["MethodName"] = "MDMethodRef";
-	This["Description"] = "String";
-	This["Key"] = "String";
-	This["Use"] = "String"; // Enums.Boolean;
-	This["Predefined"] = "String"; // Enums.Boolean;
-	This["RestartCountOnFailure"] = "Decimal";
-	This["RestartIntervalOnFailure"] = "Decimal";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["MethodName"] = "MDMethodRef";
+	Этот["Description"] = "String";
+	Этот["Key"] = "String";
+	Этот["Use"] = "String"; // Enums.Boolean;
+	Этот["Predefined"] = "String"; // Enums.Boolean;
+	Этот["RestartCountOnFailure"] = "Decimal";
+	Этот["RestartIntervalOnFailure"] = "Decimal";
+	Возврат Этот;
 КонецФункции // ScheduledJobProperties()
 
 Функция ScheduledJobChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // ScheduledJobChildObjects()
 
 #КонецОбласти // ScheduledJob
@@ -2373,29 +2373,29 @@
 #Область Sequence
 
 Функция Sequence()
-	This = Структура(MDObjectBase());
-	This["Properties"] = SequenceProperties();
-	This["ChildObjects"] = SequenceChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = SequenceProperties();
+	Этот["ChildObjects"] = SequenceChildObjects();
+	Возврат Этот;
 КонецФункции // Sequence()
 
 Функция SequenceProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["MoveBoundaryOnPosting"] = "String"; // Enums.MoveBoundaryOnPosting;
-	This["Documents"] = "MDListType";
-	This["RegisterRecords"] = "MDListType";
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["MoveBoundaryOnPosting"] = "String"; // Enums.MoveBoundaryOnPosting;
+	Этот["Documents"] = "MDListType";
+	Этот["RegisterRecords"] = "MDListType";
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Возврат Этот;
 КонецФункции // SequenceProperties()
 
 Функция SequenceChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Dimension"] = "Dimension";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Dimension"] = "Dimension";
+	Возврат Этот;
 КонецФункции // SequenceChildObjects()
 
 #КонецОбласти // Sequence
@@ -2403,26 +2403,26 @@
 #Область SessionParameter
 
 Функция SessionParameter()
-	This = Структура(MDObjectBase());
-	This["Properties"] = SessionParameterProperties();
-	This["ChildObjects"] = SessionParameterChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = SessionParameterProperties();
+	Этот["ChildObjects"] = SessionParameterChildObjects();
+	Возврат Этот;
 КонецФункции // SessionParameter()
 
 Функция SessionParameterProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Type"] = "TypeDescription";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Type"] = "TypeDescription";
+	Возврат Этот;
 КонецФункции // SessionParameterProperties()
 
 Функция SessionParameterChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // SessionParameterChildObjects()
 
 #КонецОбласти // SessionParameter
@@ -2430,30 +2430,30 @@
 #Область SettingsStorage
 
 Функция SettingsStorage()
-	This = Структура(MDObjectBase());
-	This["Properties"] = SettingsStorageProperties();
-	This["ChildObjects"] = SettingsStorageChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = SettingsStorageProperties();
+	Этот["ChildObjects"] = SettingsStorageChildObjects();
+	Возврат Этот;
 КонецФункции // SettingsStorage()
 
 Функция SettingsStorageProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["DefaultSaveForm"] = "MDObjectRef";
-	This["DefaultLoadForm"] = "MDObjectRef";
-	This["AuxiliarySaveForm"] = "MDObjectRef";
-	This["AuxiliaryLoadForm"] = "MDObjectRef";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["DefaultSaveForm"] = "MDObjectRef";
+	Этот["DefaultLoadForm"] = "MDObjectRef";
+	Этот["AuxiliarySaveForm"] = "MDObjectRef";
+	Этот["AuxiliaryLoadForm"] = "MDObjectRef";
+	Возврат Этот;
 КонецФункции // SettingsStorageProperties()
 
 Функция SettingsStorageChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Возврат Этот;
 КонецФункции // SettingsStorageChildObjects()
 
 #КонецОбласти // SettingsStorage
@@ -2461,30 +2461,30 @@
 #Область Subsystem
 
 Функция Subsystem()
-	This = Структура(MDObjectBase());
-	This["Properties"] = SubsystemProperties();
-	This["ChildObjects"] = SubsystemChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = SubsystemProperties();
+	Этот["ChildObjects"] = SubsystemChildObjects();
+	Возврат Этот;
 КонецФункции // Subsystem()
 
 Функция SubsystemProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["IncludeInCommandInterface"] = "String"; // Enums.Boolean;
-	This["Explanation"] = "LocalStringType";
-	//This["Picture"]                    = ;
-	This["Content"] = "MDListType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["IncludeInCommandInterface"] = "String"; // Enums.Boolean;
+	Этот["Explanation"] = "LocalStringType";
+	//Этот["Picture"]                    = ;
+	Этот["Content"] = "MDListType";
+	Возврат Этот;
 КонецФункции // SubsystemProperties()
 
 Функция SubsystemChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Subsystem"] = "String";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Subsystem"] = "String";
+	Возврат Этот;
 КонецФункции // SubsystemChildObjects()
 
 #КонецОбласти // Subsystem
@@ -2492,67 +2492,67 @@
 #Область Task
 
 Функция Task()
-	This = Структура(MDObjectBase());
-	This["Properties"] = TaskProperties();
-	This["ChildObjects"] = TaskChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = TaskProperties();
+	Этот["ChildObjects"] = TaskChildObjects();
+	Возврат Этот;
 КонецФункции // Task()
 
 Функция TaskProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["UseStandardCommands"] = "String"; // Enums.Boolean;
-	This["NumberType"] = "String"; // Enums.TaskNumberType;
-	This["NumberLength"] = "Decimal";
-	This["NumberAllowedLength"] = "String"; // Enums.AllowedLength;
-	This["CheckUnique"] = "String"; // Enums.Boolean;
-	This["Autonumbering"] = "String"; // Enums.Boolean;
-	This["TaskNumberAutoPrefix"] = "String"; // Enums.TaskNumberAutoPrefix;
-	This["DescriptionLength"] = "Decimal";
-	This["Addressing"] = "MDObjectRef";
-	This["MainAddressingAttribute"] = "MDObjectRef";
-	This["CurrentPerformer"] = "MDObjectRef";
-	This["BasedOn"] = "MDListType";
-	This["StandardAttributes"] = "StandardAttributes";
-	This["Characteristics"] = "Characteristics";
-	This["DefaultPresentation"] = "String"; // Enums.TaskMainPresentation;
-	This["EditType"] = "String"; // Enums.EditType;
-	This["InputByString"] = "FieldList";
-	This["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
-	This["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
-	This["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
-	This["CreateOnInput"] = "String"; // Enums.CreateOnInput;
-	This["DefaultObjectForm"] = "MDObjectRef";
-	This["DefaultListForm"] = "MDObjectRef";
-	This["DefaultChoiceForm"] = "MDObjectRef";
-	This["AuxiliaryObjectForm"] = "MDObjectRef";
-	This["AuxiliaryListForm"] = "MDObjectRef";
-	This["AuxiliaryChoiceForm"] = "MDObjectRef";
-	This["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
-	This["IncludeHelpInContents"] = "String"; // Enums.Boolean;
-	This["DataLockFields"] = "FieldList";
-	This["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
-	This["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
-	This["ObjectPresentation"] = "LocalStringType";
-	This["ExtendedObjectPresentation"] = "LocalStringType";
-	This["ListPresentation"] = "LocalStringType";
-	This["ExtendedListPresentation"] = "LocalStringType";
-	This["Explanation"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["UseStandardCommands"] = "String"; // Enums.Boolean;
+	Этот["NumberType"] = "String"; // Enums.TaskNumberType;
+	Этот["NumberLength"] = "Decimal";
+	Этот["NumberAllowedLength"] = "String"; // Enums.AllowedLength;
+	Этот["CheckUnique"] = "String"; // Enums.Boolean;
+	Этот["Autonumbering"] = "String"; // Enums.Boolean;
+	Этот["TaskNumberAutoPrefix"] = "String"; // Enums.TaskNumberAutoPrefix;
+	Этот["DescriptionLength"] = "Decimal";
+	Этот["Addressing"] = "MDObjectRef";
+	Этот["MainAddressingAttribute"] = "MDObjectRef";
+	Этот["CurrentPerformer"] = "MDObjectRef";
+	Этот["BasedOn"] = "MDListType";
+	Этот["StandardAttributes"] = "StandardAttributes";
+	Этот["Characteristics"] = "Characteristics";
+	Этот["DefaultPresentation"] = "String"; // Enums.TaskMainPresentation;
+	Этот["EditType"] = "String"; // Enums.EditType;
+	Этот["InputByString"] = "FieldList";
+	Этот["SearchStringModeOnInputByString"] = "String"; // Enums.SearchStringModeOnInputByString;
+	Этот["FullTextSearchOnInputByString"] = "String"; // Enums.FullTextSearchOnInputByString;
+	Этот["ChoiceDataGetModeOnInputByString"] = "String"; // Enums.ChoiceDataGetModeOnInputByString;
+	Этот["CreateOnInput"] = "String"; // Enums.CreateOnInput;
+	Этот["DefaultObjectForm"] = "MDObjectRef";
+	Этот["DefaultListForm"] = "MDObjectRef";
+	Этот["DefaultChoiceForm"] = "MDObjectRef";
+	Этот["AuxiliaryObjectForm"] = "MDObjectRef";
+	Этот["AuxiliaryListForm"] = "MDObjectRef";
+	Этот["AuxiliaryChoiceForm"] = "MDObjectRef";
+	Этот["ChoiceHistoryOnInput"] = "String"; // Enums.ChoiceHistoryOnInput;
+	Этот["IncludeHelpInContents"] = "String"; // Enums.Boolean;
+	Этот["DataLockFields"] = "FieldList";
+	Этот["DataLockControlMode"] = "String"; // Enums.DefaultDataLockControlMode;
+	Этот["FullTextSearch"] = "String"; // Enums.FullTextSearchUsing;
+	Этот["ObjectPresentation"] = "LocalStringType";
+	Этот["ExtendedObjectPresentation"] = "LocalStringType";
+	Этот["ListPresentation"] = "LocalStringType";
+	Этот["ExtendedListPresentation"] = "LocalStringType";
+	Этот["Explanation"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // TaskProperties()
 
 Функция TaskChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Attribute"] = "Attribute";
-	Items["TabularSection"] = "TabularSection";
-	Items["Form"] = "String";
-	Items["Template"] = "String";
-	Items["AddressingAttribute"] = "AddressingAttribute";
-	Items["Command"] = "Command";
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Attribute"] = "Attribute";
+	Элементы["TabularSection"] = "TabularSection";
+	Элементы["Form"] = "String";
+	Элементы["Template"] = "String";
+	Элементы["AddressingAttribute"] = "AddressingAttribute";
+	Элементы["Command"] = "Command";
+	Возврат Этот;
 КонецФункции // TaskChildObjects()
 
 #КонецОбласти // Task
@@ -2560,73 +2560,73 @@
 #Область WebService
 
 Функция WebService()
-	This = Структура(MDObjectBase());
-	This["Properties"] = WebServiceProperties();
-	This["ChildObjects"] = WebServiceChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = WebServiceProperties();
+	Этот["ChildObjects"] = WebServiceChildObjects();
+	Возврат Этот;
 КонецФункции // WebService()
 
 Функция WebServiceProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Namespace"] = "String";
-	//This["XDTOPackages"]        = "ValueList";
-	This["DescriptorFileName"] = "String";
-	This["ReuseSessions"] = "String"; // Enums.SessionReuseMode;
-	This["SessionMaxAge"] = "Decimal";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Namespace"] = "String";
+	//Этот["XDTOPackages"]        = "ValueList";
+	Этот["DescriptorFileName"] = "String";
+	Этот["ReuseSessions"] = "String"; // Enums.SessionReuseMode;
+	Этот["SessionMaxAge"] = "Decimal";
+	Возврат Этот;
 КонецФункции // WebServiceProperties()
 
 Функция WebServiceChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Operation"] = Operation();
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Operation"] = Operation();
+	Возврат Этот;
 КонецФункции // WebServiceChildObjects()
 
 Функция Operation()
-	This = Структура(MDObjectBase());
-	This["Properties"] = OperationProperties();
-	This["ChildObjects"] = OperationChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = OperationProperties();
+	Этот["ChildObjects"] = OperationChildObjects();
+	Возврат Этот;
 КонецФункции // Operation()
 
 Функция OperationProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["XDTOReturningValueType"] = "QName";
-	This["Nillable"] = "String"; // Enums.Boolean;
-	This["Transactioned"] = "String"; // Enums.Boolean;
-	This["ProcedureName"] = "String";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["XDTOReturningValueType"] = "QName";
+	Этот["Nillable"] = "String"; // Enums.Boolean;
+	Этот["Transactioned"] = "String"; // Enums.Boolean;
+	Этот["ProcedureName"] = "String";
+	Возврат Этот;
 КонецФункции // OperationProperties()
 
 Функция OperationChildObjects()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Parameter"] = Parameter();
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Parameter"] = Parameter();
+	Возврат Этот;
 КонецФункции // OperationChildObjects()
 
 Функция Parameter()
-	This = Структура(MDObjectBase());
-	This["Properties"] = ParameterProperties();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = ParameterProperties();
+	Возврат Этот;
 КонецФункции // Parameter()
 
 Функция ParameterProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["XDTOValueType"] = "QName";
-	This["Nillable"] = "String"; // Enums.Boolean;
-	This["TransferDirection"] = "String"; // Enums.TransferDirection;
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["XDTOValueType"] = "QName";
+	Этот["Nillable"] = "String"; // Enums.Boolean;
+	Этот["TransferDirection"] = "String"; // Enums.TransferDirection;
+	Возврат Этот;
 КонецФункции // ParameterProperties()
 
 #КонецОбласти // WebService
@@ -2634,26 +2634,26 @@
 #Область WSReference
 
 Функция WSReference()
-	This = Структура(MDObjectBase());
-	This["Properties"] = WSReferenceProperties();
-	This["ChildObjects"] = WSReferenceChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = WSReferenceProperties();
+	Этот["ChildObjects"] = WSReferenceChildObjects();
+	Возврат Этот;
 КонецФункции // WSReference()
 
 Функция WSReferenceProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["LocationURL"] = "String";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["LocationURL"] = "String";
+	Возврат Этот;
 КонецФункции // WSReferenceProperties()
 
 Функция WSReferenceChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // WSReferenceChildObjects()
 
 #КонецОбласти // WSReference
@@ -2661,26 +2661,26 @@
 #Область XDTOPackage
 
 Функция XDTOPackage()
-	This = Структура(MDObjectBase());
-	This["Properties"] = XDTOPackageProperties();
-	This["ChildObjects"] = XDTOPackageChildObjects();
-	Возврат This;
+	Этот = Структура(MDObjectBase());
+	Этот["Properties"] = XDTOPackageProperties();
+	Этот["ChildObjects"] = XDTOPackageChildObjects();
+	Возврат Этот;
 КонецФункции // XDTOPackage()
 
 Функция XDTOPackageProperties()
-	This = Структура();
-	This["Name"] = "String";
-	This["Synonym"] = "LocalStringType";
-	This["Comment"] = "String";
-	This["Namespace"] = "String";
-	Возврат This;
+	Этот = Структура();
+	Этот["Name"] = "String";
+	Этот["Synonym"] = "LocalStringType";
+	Этот["Comment"] = "String";
+	Этот["Namespace"] = "String";
+	Возврат Этот;
 КонецФункции // XDTOPackageProperties()
 
 Функция XDTOPackageChildObjects()
-	This = Объект();
-	Items = This.Элементы;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
 
-	Возврат This;
+	Возврат Этот;
 КонецФункции // XDTOPackageChildObjects()
 
 #КонецОбласти // XDTOPackage
@@ -2690,55 +2690,55 @@
 #Область LogForm
 
 Функция LogForm()
-	This = Структура();
-	This["Title"] = "LocalStringType";
-	This["Width"] = "Decimal";
-	This["Height"] = "Decimal";
-	This["VerticalScroll"] = "String"; // Enums.VerticalFormScroll;
-	This["WindowOpeningMode"] = "String"; // Enums.FormWindowOpeningMode;
-	This["Attributes"] = FormAttributes();
-	This["Events"] = FormEvents();
-	This["ChildItems"] = "FormChildItems";
-	Возврат This;
+	Этот = Структура();
+	Этот["Title"] = "LocalStringType";
+	Этот["Width"] = "Decimal";
+	Этот["Height"] = "Decimal";
+	Этот["VerticalScroll"] = "String"; // Enums.VerticalFormScroll;
+	Этот["WindowOpeningMode"] = "String"; // Enums.FormWindowOpeningMode;
+	Этот["Attributes"] = FormAttributes();
+	Этот["Events"] = FormEvents();
+	Этот["ChildItems"] = "FormChildItems";
+	Возврат Этот;
 КонецФункции // LogForm()
 
 Функция FormItemBase()
-	This = Структура();
-	This["id"] = "Decimal";
-	This["name"] = "String";
-	Возврат This;
+	Этот = Структура();
+	Этот["id"] = "Decimal";
+	Этот["name"] = "String";
+	Возврат Этот;
 КонецФункции // FormItemBase()
 
 Функция FormChildItems()
-	This = Объект();
-	Items = This.Элементы;
-	Items["UsualGroup"] = FormUsualGroup();
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["UsualGroup"] = FormUsualGroup();
+	Возврат Этот;
 КонецФункции // FormChildItems()
 
 Функция FormUsualGroup()
-	This = Структура(FormItemBase());
-	This["HorizontalAlign"] = "String"; // Enums.ItemHorizontalLocation;
-	This["United"] = "Boolean";
-	This["ShowTitle"] = "Boolean";
-	This["ChildItems"] = "FormChildItems";
-	Возврат This;
+	Этот = Структура(FormItemBase());
+	Этот["HorizontalAlign"] = "String"; // Enums.ItemHorizontalLocation;
+	Этот["United"] = "Boolean";
+	Этот["ShowTitle"] = "Boolean";
+	Этот["ChildItems"] = "FormChildItems";
+	Возврат Этот;
 КонецФункции // FormUsualGroup()
 
 #Область Events
 
 Функция FormEvents()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Event"] = FormEvent();
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Event"] = FormEvent();
+	Возврат Этот;
 КонецФункции // FormEvents()
 
 Функция FormEvent()
-	This = Структура();
-	This["name"] = "String";
-	This["_"] = "String";
-	Возврат This;
+	Этот = Структура();
+	Этот["name"] = "String";
+	Этот["_"] = "String";
+	Возврат Этот;
 КонецФункции // FormEvent()
 
 #КонецОбласти // Events
@@ -2746,35 +2746,35 @@
 #Область Attributes
 
 Функция FormAttributes()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Attribute"] = FormAttribute();
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Attribute"] = FormAttribute();
+	Возврат Этот;
 КонецФункции // FormAttributes()
 
 Функция FormAttribute()
-	This = Структура();
-	This["name"] = "String";
-	This["Title"] = "LocalStringType";
-	This["SavedData"] = "Boolean";
-	This["Columns"] = FormAttributeColumns();
-	Возврат This;
+	Этот = Структура();
+	Этот["name"] = "String";
+	Этот["Title"] = "LocalStringType";
+	Этот["SavedData"] = "Boolean";
+	Этот["Columns"] = FormAttributeColumns();
+	Возврат Этот;
 КонецФункции // FormAttribute()
 
 #Область Columns
 
 Функция FormAttributeColumns()
-	This = Объект();
-	Items = This.Элементы;
-	Items["Column"] = FormAttributeColumn();
-	Возврат This;
+	Этот = Объект();
+	Элементы = Этот.Элементы;
+	Элементы["Column"] = FormAttributeColumn();
+	Возврат Этот;
 КонецФункции // FormAttributeColumns()
 
 Функция FormAttributeColumn()
-	This = Структура();
-	This["name"] = "String";
-	This["Title"] = "LocalStringType";
-	Возврат This;
+	Этот = Структура();
+	Этот["name"] = "String";
+	Этот["Title"] = "LocalStringType";
+	Возврат Этот;
 КонецФункции // FormAttributeColumn()
 
 #КонецОбласти // Columns
